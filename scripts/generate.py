@@ -439,6 +439,7 @@ def main():
     ap.add_argument("--force", action="store_true", help="忽略缓存，全部重抓")
     ap.add_argument("--no-download", action="store_true", help="不下载图片，只使用外链")
     ap.add_argument("--readme-only", action="store_true", help="只按 themes.json 重新生成 README")
+    ap.add_argument("--no-prune", action="store_true", help="保留 assets 里已不再引用的旧图")
     args = ap.parse_args()
 
     ASSETS.mkdir(exist_ok=True)
@@ -479,6 +480,19 @@ def main():
                                      "remote": [], "cover": None}
 
     themes = [results.get(r) or cache[r] for r in repos]
+
+    # 清理不再被引用的旧截图 (主题被上游移除 / 索引变化后残留)
+    if not args.no_prune:
+        used = {s.rsplit("/", 1)[-1] for t in themes for s in t.get("screenshots", [])}
+        if len(used) > 20:          # 安全阀: 引用数异常时不删
+            removed = 0
+            for f in ASSETS.iterdir():
+                if f.is_file() and f.name not in used:
+                    f.unlink()
+                    removed += 1
+            if removed:
+                print(f"清理旧图 {removed} 张")
+
     THEMES_JSON.write_text(
         json.dumps(themes, ensure_ascii=False, indent=2), encoding="utf-8"
     )
