@@ -1,0 +1,920 @@
+[
+  {
+    "slug": "alfredolvera/XboxOS",
+    "owner": "alfredolvera",
+    "repo": "XboxOS",
+    "name": "XboxOS (a fork of gameOS)",
+    "url": "https://github.com/alfredolvera/XboxOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/Cb31gtf.png",
+      "https://i.imgur.com/19DZEJ1.jpg",
+      "https://i.imgur.com/x5ATDSx.png"
+    ],
+    "cover": "https://i.imgur.com/Cb31gtf.png"
+  },
+  {
+    "slug": "asdfgasfhsn/pegasus-theme-homage",
+    "owner": "asdfgasfhsn",
+    "repo": "pegasus-theme-homage",
+    "name": "The Homage v0.2.0",
+    "url": "https://github.com/asdfgasfhsn/pegasus-theme-homage",
+    "screenshots": [
+      "assets/asdfgasfhsn--pegasus-theme-homage.jpg"
+    ],
+    "remote": [
+      "https://user-images.githubusercontent.com/30796598/62833640-889a5a00-bc85-11e9-8ab9-c99251a64985.png"
+    ],
+    "cover": "assets/asdfgasfhsn--pegasus-theme-homage.jpg"
+  },
+  {
+    "slug": "basvroegop/RetroidFlix",
+    "owner": "basvroegop",
+    "repo": "RetroidFlix",
+    "name": "Flixnet theme for Pegasus",
+    "url": "https://github.com/basvroegop/RetroidFlix",
+    "screenshots": [
+      "assets/basvroegop--RetroidFlix.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/basvroegop--RetroidFlix.jpg"
+  },
+  {
+    "slug": "basvroegop/RetroidStation",
+    "owner": "basvroegop",
+    "repo": "RetroidStation",
+    "name": "RetroidStation",
+    "url": "https://github.com/basvroegop/RetroidStation",
+    "screenshots": [
+      "assets/basvroegop--RetroidStation.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/basvroegop--RetroidStation.jpg"
+  },
+  {
+    "slug": "buzz/pegasus-theme-slick",
+    "owner": "buzz",
+    "repo": "pegasus-theme-slick",
+    "name": "Slick theme for Pegasus",
+    "url": "https://github.com/buzz/pegasus-theme-slick",
+    "screenshots": [
+      "assets/buzz--pegasus-theme-slick.jpg"
+    ],
+    "remote": [
+      "https://raw.githubusercontent.com/buzz/pegasus-theme-slick/HEAD/.meta/screenshot-platform.jpg"
+    ],
+    "cover": "assets/buzz--pegasus-theme-slick.jpg"
+  },
+  {
+    "slug": "carloslmar/pegasus-theme-9999999-in-1-poly",
+    "owner": "carloslmar",
+    "repo": "pegasus-theme-9999999-in-1-poly",
+    "name": "Polystation theme for Pegasus",
+    "url": "https://github.com/carloslmar/pegasus-theme-9999999-in-1-poly",
+    "screenshots": [
+      "assets/carloslmar--pegasus-theme-9999999-in-1-poly.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/carloslmar--pegasus-theme-9999999-in-1-poly.jpg"
+  },
+  {
+    "slug": "DFOXpro/rp2-pegasus-theme-grid",
+    "owner": "DFOXpro",
+    "repo": "rp2-pegasus-theme-grid",
+    "name": "Pegasus Grid theme for Retroid Pocket 2",
+    "url": "https://github.com/DFOXpro/rp2-pegasus-theme-grid",
+    "screenshots": [
+      "assets/DFOXpro--rp2-pegasus-theme-grid.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/DFOXpro--rp2-pegasus-theme-grid.jpg"
+  },
+  {
+    "slug": "djfumberger/retromega",
+    "owner": "djfumberger",
+    "repo": "retromega",
+    "name": "Retro Mega v0.4",
+    "url": "https://github.com/djfumberger/retromega",
+    "screenshots": [
+      "assets/djfumberger--retromega.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/djfumberger--retromega.jpg"
+  },
+  {
+    "slug": "dragoonDorise/RP-RG351",
+    "owner": "dragoonDorise",
+    "repo": "RP-RG351",
+    "name": "Retroid Pocket RG351 Theme",
+    "url": "https://github.com/dragoonDorise/RP-RG351",
+    "screenshots": [
+      "assets/dragoonDorise--RP-RG351.jpg",
+      "assets/dragoonDorise--RP-RG351_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/dragoonDorise--RP-RG351.jpg"
+  },
+  {
+    "slug": "dragoonDorise/RP-Switch",
+    "owner": "dragoonDorise",
+    "repo": "RP-Switch",
+    "name": "Retroid Pocket Switch Theme",
+    "url": "https://github.com/dragoonDorise/RP-Switch",
+    "screenshots": [
+      "assets/dragoonDorise--RP-Switch.jpg"
+    ],
+    "remote": [
+      "https://raw.githubusercontent.com/dragoonDorise/RP-Switch/main/screenshots/home.jpg"
+    ],
+    "cover": "assets/dragoonDorise--RP-Switch.jpg"
+  },
+  {
+    "slug": "ElectronicRave/ES-Simple-Clean",
+    "owner": "ElectronicRave",
+    "repo": "ES-Simple-Clean",
+    "name": "ES Simple Clean",
+    "url": "https://github.com/ElectronicRave/ES-Simple-Clean",
+    "screenshots": [],
+    "remote": [],
+    "cover": null
+  },
+  {
+    "slug": "ElectronicRave/RP-Launcher",
+    "owner": "ElectronicRave",
+    "repo": "RP-Launcher",
+    "name": "RP Launcher",
+    "url": "https://github.com/ElectronicRave/RP-Launcher",
+    "screenshots": [],
+    "remote": [],
+    "cover": null
+  },
+  {
+    "slug": "eleo95/pegasus-theme-refiOS",
+    "owner": "eleo95",
+    "repo": "pegasus-theme-refiOS",
+    "name": "RefiOS (a fork of Flixnet)",
+    "url": "https://github.com/eleo95/pegasus-theme-refiOS",
+    "screenshots": [
+      "assets/eleo95--pegasus-theme-refiOS.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/eleo95--pegasus-theme-refiOS.jpg"
+  },
+  {
+    "slug": "flagrant99/pegasus-theme-genre-filter",
+    "owner": "flagrant99",
+    "repo": "pegasus-theme-genre-filter",
+    "name": "pegasus-theme-genre-filter",
+    "url": "https://github.com/flagrant99/pegasus-theme-genre-filter",
+    "screenshots": [
+      "assets/flagrant99--pegasus-theme-genre-filter.jpg"
+    ],
+    "remote": [
+      "https://raw.githubusercontent.com/flagrant99/pegasus-theme-genre-filter/HEAD/.github/wiki-images/GFButton.jpg",
+      "https://raw.githubusercontent.com/flagrant99/pegasus-theme-genre-filter/HEAD/.github/wiki-images/Driving.jpg"
+    ],
+    "cover": "assets/flagrant99--pegasus-theme-genre-filter.jpg"
+  },
+  {
+    "slug": "Fr75s/library",
+    "owner": "Fr75s",
+    "repo": "library",
+    "name": "library",
+    "url": "https://github.com/Fr75s/library",
+    "screenshots": [
+      "assets/Fr75s--library.jpg",
+      "assets/Fr75s--library_1.jpg",
+      "assets/Fr75s--library_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/Fr75s--library.jpg"
+  },
+  {
+    "slug": "FrenchGithubUser/epic-memories-theme",
+    "owner": "FrenchGithubUser",
+    "repo": "epic-memories-theme",
+    "name": "Epic Memories",
+    "url": "https://github.com/FrenchGithubUser/epic-memories-theme",
+    "screenshots": [
+      "assets/FrenchGithubUser--epic-memories-theme.jpg",
+      "assets/FrenchGithubUser--epic-memories-theme_1.jpg"
+    ],
+    "remote": [
+      "https://raw.githubusercontent.com/FrenchGithubUser/epic-memories-theme/HEAD/.meta/screenshots/0.jpg"
+    ],
+    "cover": "assets/FrenchGithubUser--epic-memories-theme.jpg"
+  },
+  {
+    "slug": "Gheovgos/skylineOS2",
+    "owner": "Gheovgos",
+    "repo": "skylineOS2",
+    "name": "skylineOS",
+    "url": "https://github.com/Gheovgos/skylineOS2",
+    "screenshots": [
+      "assets/Gheovgos--skylineOS2.jpg",
+      "assets/Gheovgos--skylineOS2_1.jpg",
+      "assets/Gheovgos--skylineOS2_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/Gheovgos--skylineOS2.jpg"
+  },
+  {
+    "slug": "hazem-abdelghani/retromega-neo",
+    "owner": "hazem-abdelghani",
+    "repo": "retromega-neo",
+    "name": "Retro Mega Neo",
+    "url": "https://github.com/hazem-abdelghani/retromega-neo",
+    "screenshots": [
+      "assets/hazem-abdelghani--retromega-neo.jpg",
+      "assets/hazem-abdelghani--retromega-neo_1.jpg",
+      "assets/hazem-abdelghani--retromega-neo_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/hazem-abdelghani--retromega-neo.jpg"
+  },
+  {
+    "slug": "HomeStarRunnerTron/gameOS-fire-sKye",
+    "owner": "HomeStarRunnerTron",
+    "repo": "gameOS-fire-sKye",
+    "name": "gameOS fire sKye",
+    "url": "https://github.com/HomeStarRunnerTron/gameOS-fire-sKye",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/wmT3dAU.png",
+      "https://i.imgur.com/rVMMzRY.png",
+      "https://i.imgur.com/2ryXTaw.png"
+    ],
+    "cover": "https://i.imgur.com/wmT3dAU.png"
+  },
+  {
+    "slug": "ilyasturki/pegasus-theme-reprise",
+    "owner": "ilyasturki",
+    "repo": "pegasus-theme-reprise",
+    "name": "Reprise",
+    "url": "https://github.com/ilyasturki/pegasus-theme-reprise",
+    "screenshots": [
+      "assets/ilyasturki--pegasus-theme-reprise.jpg",
+      "assets/ilyasturki--pegasus-theme-reprise_1.jpg",
+      "assets/ilyasturki--pegasus-theme-reprise_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ilyasturki--pegasus-theme-reprise.jpg"
+  },
+  {
+    "slug": "ismaelestalayo/skylineOSP",
+    "owner": "ismaelestalayo",
+    "repo": "skylineOSP",
+    "name": "skylineOS++",
+    "url": "https://github.com/ismaelestalayo/skylineOSP",
+    "screenshots": [
+      "assets/ismaelestalayo--skylineOSP.jpg",
+      "assets/ismaelestalayo--skylineOSP_1.jpg",
+      "assets/ismaelestalayo--skylineOSP_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ismaelestalayo--skylineOSP.jpg"
+  },
+  {
+    "slug": "jimbob4000/gameOS",
+    "owner": "jimbob4000",
+    "repo": "gameOS",
+    "name": "gameOS - Fire v1.0",
+    "url": "https://github.com/jimbob4000/gameOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/dIqVgG0.png",
+      "https://i.imgur.com/b5lIg5l.png",
+      "https://i.imgur.com/LtJlNrr.png"
+    ],
+    "cover": "https://i.imgur.com/dIqVgG0.png"
+  },
+  {
+    "slug": "LeeBigelow/pegasus-theme-amiga-workbench",
+    "owner": "LeeBigelow",
+    "repo": "pegasus-theme-amiga-workbench",
+    "name": "amiga workbench",
+    "url": "https://github.com/LeeBigelow/pegasus-theme-amiga-workbench",
+    "screenshots": [
+      "assets/LeeBigelow--pegasus-theme-amiga-workbench.jpg",
+      "assets/LeeBigelow--pegasus-theme-amiga-workbench_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/LeeBigelow--pegasus-theme-amiga-workbench.jpg"
+  },
+  {
+    "slug": "LeeBigelow/pegasus-theme-slatest",
+    "owner": "LeeBigelow",
+    "repo": "pegasus-theme-slatest",
+    "name": "slatest",
+    "url": "https://github.com/LeeBigelow/pegasus-theme-slatest",
+    "screenshots": [
+      "assets/LeeBigelow--pegasus-theme-slatest.jpg",
+      "assets/LeeBigelow--pegasus-theme-slatest_1.jpg",
+      "assets/LeeBigelow--pegasus-theme-slatest_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/LeeBigelow--pegasus-theme-slatest.jpg"
+  },
+  {
+    "slug": "luxureousproductions-bit/XboxOSv2",
+    "owner": "luxureousproductions-bit",
+    "repo": "XboxOSv2",
+    "name": "XboxOSv2 (a fork of a fork of gameOS)",
+    "url": "https://github.com/luxureousproductions-bit/XboxOSv2",
+    "screenshots": [],
+    "remote": [
+      "https://github.com/user-attachments/assets/69d9e558-15bd-46af-bf64-8975ef7a8608",
+      "https://github.com/user-attachments/assets/b0f621c9-63c9-43e3-b05b-a7f514c1e593",
+      "https://github.com/user-attachments/assets/f661e9ad-abad-4708-8369-76f6ed3bd4a0"
+    ],
+    "cover": "https://github.com/user-attachments/assets/69d9e558-15bd-46af-bf64-8975ef7a8608"
+  },
+  {
+    "slug": "Lx-Dm/Pegasus-theme-XrossMediaBar",
+    "owner": "Lx-Dm",
+    "repo": "Pegasus-theme-XrossMediaBar",
+    "name": "Pegasus-theme-XrossMediaBar",
+    "url": "https://github.com/Lx-Dm/Pegasus-theme-XrossMediaBar",
+    "screenshots": [
+      "assets/Lx-Dm--Pegasus-theme-XrossMediaBar.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/Lx-Dm--Pegasus-theme-XrossMediaBar.jpg"
+  },
+  {
+    "slug": "mlumeau/pegasus-theme-clean-covers",
+    "owner": "mlumeau",
+    "repo": "pegasus-theme-clean-covers",
+    "name": "Clean Covers",
+    "url": "https://github.com/mlumeau/pegasus-theme-clean-covers",
+    "screenshots": [
+      "assets/mlumeau--pegasus-theme-clean-covers.jpg",
+      "assets/mlumeau--pegasus-theme-clean-covers_1.jpg",
+      "assets/mlumeau--pegasus-theme-clean-covers_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mlumeau--pegasus-theme-clean-covers.jpg"
+  },
+  {
+    "slug": "mlumeau/pegasus-theme-clean-covers-desktop",
+    "owner": "mlumeau",
+    "repo": "pegasus-theme-clean-covers-desktop",
+    "name": "Clean Covers Desktop",
+    "url": "https://github.com/mlumeau/pegasus-theme-clean-covers-desktop",
+    "screenshots": [
+      "assets/mlumeau--pegasus-theme-clean-covers-desktop.jpg",
+      "assets/mlumeau--pegasus-theme-clean-covers-desktop_1.jpg",
+      "assets/mlumeau--pegasus-theme-clean-covers-desktop_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mlumeau--pegasus-theme-clean-covers-desktop.jpg"
+  },
+  {
+    "slug": "mmatyas/pegasus-theme-9999999-in-1",
+    "owner": "mmatyas",
+    "repo": "pegasus-theme-9999999-in-1",
+    "name": "Famicom Beach theme for Pegasus",
+    "url": "https://github.com/mmatyas/pegasus-theme-9999999-in-1",
+    "screenshots": [
+      "assets/mmatyas--pegasus-theme-9999999-in-1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mmatyas--pegasus-theme-9999999-in-1.jpg"
+  },
+  {
+    "slug": "mmatyas/pegasus-theme-es2-simple",
+    "owner": "mmatyas",
+    "repo": "pegasus-theme-es2-simple",
+    "name": "ES2 Simple theme for Pegasus",
+    "url": "https://github.com/mmatyas/pegasus-theme-es2-simple",
+    "screenshots": [
+      "assets/mmatyas--pegasus-theme-es2-simple.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mmatyas--pegasus-theme-es2-simple.jpg"
+  },
+  {
+    "slug": "mmatyas/pegasus-theme-flixnet",
+    "owner": "mmatyas",
+    "repo": "pegasus-theme-flixnet",
+    "name": "Flixnet theme for Pegasus",
+    "url": "https://github.com/mmatyas/pegasus-theme-flixnet",
+    "screenshots": [
+      "assets/mmatyas--pegasus-theme-flixnet.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mmatyas--pegasus-theme-flixnet.jpg"
+  },
+  {
+    "slug": "mmatyas/pegasus-theme-grid",
+    "owner": "mmatyas",
+    "repo": "pegasus-theme-grid",
+    "name": "Grid theme for Pegasus",
+    "url": "https://github.com/mmatyas/pegasus-theme-grid",
+    "screenshots": [
+      "assets/mmatyas--pegasus-theme-grid.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mmatyas--pegasus-theme-grid.jpg"
+  },
+  {
+    "slug": "mmatyas/pegasus-theme-grid-micro",
+    "owner": "mmatyas",
+    "repo": "pegasus-theme-grid-micro",
+    "name": "Grid Micro theme for Pegasus",
+    "url": "https://github.com/mmatyas/pegasus-theme-grid-micro",
+    "screenshots": [
+      "assets/mmatyas--pegasus-theme-grid-micro.jpg",
+      "assets/mmatyas--pegasus-theme-grid-micro_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mmatyas--pegasus-theme-grid-micro.jpg"
+  },
+  {
+    "slug": "mmatyas/pegasus-theme-secretary",
+    "owner": "mmatyas",
+    "repo": "pegasus-theme-secretary",
+    "name": "Secretary theme for Pegasus",
+    "url": "https://github.com/mmatyas/pegasus-theme-secretary",
+    "screenshots": [
+      "assets/mmatyas--pegasus-theme-secretary.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/mmatyas--pegasus-theme-secretary.jpg"
+  },
+  {
+    "slug": "my-name-is-p/struceOS-Pegasus-Theme",
+    "owner": "my-name-is-p",
+    "repo": "struceOS-Pegasus-Theme",
+    "name": "struceOS-Pegasus-Theme",
+    "url": "https://github.com/my-name-is-p/struceOS-Pegasus-Theme",
+    "screenshots": [
+      "assets/my-name-is-p--struceOS-Pegasus-Theme.jpg",
+      "assets/my-name-is-p--struceOS-Pegasus-Theme_1.jpg",
+      "assets/my-name-is-p--struceOS-Pegasus-Theme_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/my-name-is-p--struceOS-Pegasus-Theme.jpg"
+  },
+  {
+    "slug": "nicjansma/pegasus-theme-slate-es-de",
+    "owner": "nicjansma",
+    "repo": "pegasus-theme-slate-es-de",
+    "name": "ES-DE Slate theme for Pegasus",
+    "url": "https://github.com/nicjansma/pegasus-theme-slate-es-de",
+    "screenshots": [
+      "assets/nicjansma--pegasus-theme-slate-es-de.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/nicjansma--pegasus-theme-slate-es-de.jpg"
+  },
+  {
+    "slug": "plaidman/retromega-next",
+    "owner": "plaidman",
+    "repo": "retromega-next",
+    "name": "Retro Mega Next",
+    "url": "https://github.com/plaidman/retromega-next",
+    "screenshots": [
+      "assets/plaidman--retromega-next.jpg",
+      "assets/plaidman--retromega-next_1.jpg",
+      "assets/plaidman--retromega-next_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/plaidman--retromega-next.jpg"
+  },
+  {
+    "slug": "PlayingKarrde/clearOS",
+    "owner": "PlayingKarrde",
+    "repo": "clearOS",
+    "name": "clearOS v1.1",
+    "url": "https://github.com/PlayingKarrde/clearOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/XUvZIjx.png",
+      "https://i.imgur.com/FP0eJIY.png",
+      "https://i.imgur.com/5UycKVI.png"
+    ],
+    "cover": "https://i.imgur.com/XUvZIjx.png"
+  },
+  {
+    "slug": "PlayingKarrde/gameOS",
+    "owner": "PlayingKarrde",
+    "repo": "gameOS",
+    "name": "gameOS v1.10",
+    "url": "https://github.com/PlayingKarrde/gameOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/J4Jh4rq.jpg"
+    ],
+    "cover": "https://i.imgur.com/J4Jh4rq.jpg"
+  },
+  {
+    "slug": "PlayingKarrde/prosperoOS",
+    "owner": "PlayingKarrde",
+    "repo": "prosperoOS",
+    "name": "prosperoOS v0.1",
+    "url": "https://github.com/PlayingKarrde/prosperoOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/4cPZLoo.png",
+      "https://i.imgur.com/AlDRo9l.png",
+      "https://i.imgur.com/PiZGhgi.png"
+    ],
+    "cover": "https://i.imgur.com/4cPZLoo.png"
+  },
+  {
+    "slug": "PlayingKarrde/switchOS",
+    "owner": "PlayingKarrde",
+    "repo": "switchOS",
+    "name": "switchOS v0.3",
+    "url": "https://github.com/PlayingKarrde/switchOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/4EUrWRV.jpg",
+      "https://i.imgur.com/yFCqOaY.png"
+    ],
+    "cover": "https://i.imgur.com/4EUrWRV.jpg"
+  },
+  {
+    "slug": "r3tro80/bartopOS",
+    "owner": "r3tro80",
+    "repo": "bartopOS",
+    "name": "bartopOS v1.0",
+    "url": "https://github.com/r3tro80/bartopOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/C4fhhAk.png",
+      "https://i.imgur.com/n9P5CtG.png",
+      "https://i.imgur.com/FZJJCpS.png"
+    ],
+    "cover": "https://i.imgur.com/C4fhhAk.png"
+  },
+  {
+    "slug": "RBertoCases/skylineOS",
+    "owner": "RBertoCases",
+    "repo": "skylineOS",
+    "name": "skylineOS",
+    "url": "https://github.com/RBertoCases/skylineOS",
+    "screenshots": [
+      "assets/RBertoCases--skylineOS.jpg",
+      "assets/RBertoCases--skylineOS_1.jpg",
+      "assets/RBertoCases--skylineOS_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/RBertoCases--skylineOS.jpg"
+  },
+  {
+    "slug": "riquenunes/pegasus-theme-npe",
+    "owner": "riquenunes",
+    "repo": "pegasus-theme-npe",
+    "name": "New Pegasus Experience Theme",
+    "url": "https://github.com/riquenunes/pegasus-theme-npe",
+    "screenshots": [
+      "assets/riquenunes--pegasus-theme-npe.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/riquenunes--pegasus-theme-npe.jpg"
+  },
+  {
+    "slug": "RobZombie9043/COLORFUL",
+    "owner": "RobZombie9043",
+    "repo": "COLORFUL",
+    "name": "COLORFUL",
+    "url": "https://github.com/RobZombie9043/COLORFUL",
+    "screenshots": [
+      "assets/RobZombie9043--COLORFUL.jpg",
+      "assets/RobZombie9043--COLORFUL_1.jpg",
+      "assets/RobZombie9043--COLORFUL_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/RobZombie9043--COLORFUL.jpg"
+  },
+  {
+    "slug": "rutantan/zephyr",
+    "owner": "rutantan",
+    "repo": "zephyr",
+    "name": "zephyr",
+    "url": "https://github.com/rutantan/zephyr",
+    "screenshots": [],
+    "remote": [],
+    "cover": null
+  },
+  {
+    "slug": "SinisterSpatula/pegasus-theme-gpiOS",
+    "owner": "SinisterSpatula",
+    "repo": "pegasus-theme-gpiOS",
+    "name": "pegasus-theme-gpiOS",
+    "url": "https://github.com/SinisterSpatula/pegasus-theme-gpiOS",
+    "screenshots": [],
+    "remote": [
+      "https://i.imgur.com/EjqIWkn.png",
+      "https://i.imgur.com/IP9e4t5.png",
+      "https://i.imgur.com/jIKEXtI.png"
+    ],
+    "cover": "https://i.imgur.com/EjqIWkn.png"
+  },
+  {
+    "slug": "thomas0465/PegasusBoyLite",
+    "owner": "thomas0465",
+    "repo": "PegasusBoyLite",
+    "name": "Pegasus Boy Lite",
+    "url": "https://github.com/thomas0465/PegasusBoyLite",
+    "screenshots": [
+      "assets/thomas0465--PegasusBoyLite.jpg",
+      "assets/thomas0465--PegasusBoyLite_1.jpg",
+      "assets/thomas0465--PegasusBoyLite_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/thomas0465--PegasusBoyLite.jpg"
+  },
+  {
+    "slug": "TigraTT-Driver/shinretro",
+    "owner": "TigraTT-Driver",
+    "repo": "shinretro",
+    "name": "shinretro",
+    "url": "https://github.com/TigraTT-Driver/shinretro",
+    "screenshots": [],
+    "remote": [
+      "https://img.youtube.com/vi/YbPcsC95Qc0/0.jpg",
+      "https://img.youtube.com/vi/sm5J7JoTYs8/0.jpg"
+    ],
+    "cover": "https://img.youtube.com/vi/YbPcsC95Qc0/0.jpg"
+  },
+  {
+    "slug": "travrei/revolutionmenu",
+    "owner": "travrei",
+    "repo": "revolutionmenu",
+    "name": "Revolution Menu",
+    "url": "https://github.com/travrei/revolutionmenu",
+    "screenshots": [
+      "assets/travrei--revolutionmenu.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/travrei--revolutionmenu.jpg"
+  },
+  {
+    "slug": "valsou/neoretro",
+    "owner": "valsou",
+    "repo": "neoretro",
+    "name": "neoretrō v0.131",
+    "url": "https://github.com/valsou/neoretro",
+    "screenshots": [
+      "assets/valsou--neoretro.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/valsou--neoretro.jpg"
+  },
+  {
+    "slug": "VGmove/EasyLaunch",
+    "owner": "VGmove",
+    "repo": "EasyLaunch",
+    "name": "EasyLaunch",
+    "url": "https://github.com/VGmove/EasyLaunch",
+    "screenshots": [
+      "assets/VGmove--EasyLaunch.jpg"
+    ],
+    "remote": [
+      "https://raw.githubusercontent.com/VGmove/EasyLaunch/HEAD/.meta/screenshot_1.png",
+      "https://raw.githubusercontent.com/VGmove/EasyLaunch/HEAD/.meta/screenshot_4.png"
+    ],
+    "cover": "assets/VGmove--EasyLaunch.jpg"
+  },
+  {
+    "slug": "waldnercharles/Minimis",
+    "owner": "waldnercharles",
+    "repo": "Minimis",
+    "name": "Minimis",
+    "url": "https://github.com/waldnercharles/Minimis",
+    "screenshots": [
+      "assets/waldnercharles--Minimis.jpg",
+      "assets/waldnercharles--Minimis_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/waldnercharles--Minimis.jpg"
+  },
+  {
+    "slug": "y-muller/retromega-sleipnir",
+    "owner": "y-muller",
+    "repo": "retromega-sleipnir",
+    "name": "retromega sleipnir",
+    "url": "https://github.com/y-muller/retromega-sleipnir",
+    "screenshots": [],
+    "remote": [],
+    "cover": null
+  },
+  {
+    "slug": "ZagonAb/Amberline",
+    "owner": "ZagonAb",
+    "repo": "Amberline",
+    "name": "Amberline",
+    "url": "https://github.com/ZagonAb/Amberline",
+    "screenshots": [
+      "assets/ZagonAb--Amberline.jpg",
+      "assets/ZagonAb--Amberline_1.jpg",
+      "assets/ZagonAb--Amberline_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Amberline.jpg"
+  },
+  {
+    "slug": "ZagonAb/Anbernic-Theme",
+    "owner": "ZagonAb",
+    "repo": "Anbernic-Theme",
+    "name": "Anbernic Theme",
+    "url": "https://github.com/ZagonAb/Anbernic-Theme",
+    "screenshots": [
+      "assets/ZagonAb--Anbernic-Theme.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Anbernic-Theme.jpg"
+  },
+  {
+    "slug": "ZagonAb/BigScreenFE",
+    "owner": "ZagonAb",
+    "repo": "BigScreenFE",
+    "name": "BigScreenFE",
+    "url": "https://github.com/ZagonAb/BigScreenFE",
+    "screenshots": [],
+    "remote": [],
+    "cover": null
+  },
+  {
+    "slug": "ZagonAb/Collection-Hub",
+    "owner": "ZagonAb",
+    "repo": "Collection-Hub",
+    "name": "Collection Hub",
+    "url": "https://github.com/ZagonAb/Collection-Hub",
+    "screenshots": [
+      "assets/ZagonAb--Collection-Hub.jpg",
+      "assets/ZagonAb--Collection-Hub_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Collection-Hub.jpg"
+  },
+  {
+    "slug": "ZagonAb/ColorShader",
+    "owner": "ZagonAb",
+    "repo": "ColorShader",
+    "name": "ColorShader",
+    "url": "https://github.com/ZagonAb/ColorShader",
+    "screenshots": [
+      "assets/ZagonAb--ColorShader.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--ColorShader.jpg"
+  },
+  {
+    "slug": "ZagonAb/Flat-Ozone",
+    "owner": "ZagonAb",
+    "repo": "Flat-Ozone",
+    "name": "Flat Ozone",
+    "url": "https://github.com/ZagonAb/Flat-Ozone",
+    "screenshots": [
+      "assets/ZagonAb--Flat-Ozone.jpg",
+      "assets/ZagonAb--Flat-Ozone_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Flat-Ozone.jpg"
+  },
+  {
+    "slug": "ZagonAb/FlatFlix",
+    "owner": "ZagonAb",
+    "repo": "FlatFlix",
+    "name": "FlatFlix",
+    "url": "https://github.com/ZagonAb/FlatFlix",
+    "screenshots": [
+      "assets/ZagonAb--FlatFlix.jpg",
+      "assets/ZagonAb--FlatFlix_1.jpg",
+      "assets/ZagonAb--FlatFlix_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--FlatFlix.jpg"
+  },
+  {
+    "slug": "ZagonAb/FlixNet_Plus",
+    "owner": "ZagonAb",
+    "repo": "FlixNet_Plus",
+    "name": "FlixNet Plus",
+    "url": "https://github.com/ZagonAb/FlixNet_Plus",
+    "screenshots": [],
+    "remote": [],
+    "cover": null
+  },
+  {
+    "slug": "ZagonAb/Limbo-Theme",
+    "owner": "ZagonAb",
+    "repo": "Limbo-Theme",
+    "name": "Limbo Theme",
+    "url": "https://github.com/ZagonAb/Limbo-Theme",
+    "screenshots": [],
+    "remote": [],
+    "cover": null
+  },
+  {
+    "slug": "ZagonAb/Ludens-Pegasus",
+    "owner": "ZagonAb",
+    "repo": "Ludens-Pegasus",
+    "name": "Ludens",
+    "url": "https://github.com/ZagonAb/Ludens-Pegasus",
+    "screenshots": [
+      "assets/ZagonAb--Ludens-Pegasus.jpg",
+      "assets/ZagonAb--Ludens-Pegasus_1.jpg",
+      "assets/ZagonAb--Ludens-Pegasus_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Ludens-Pegasus.jpg"
+  },
+  {
+    "slug": "ZagonAb/Nostalgia-Grid",
+    "owner": "ZagonAb",
+    "repo": "Nostalgia-Grid",
+    "name": "Nostalgia-Grid theme for Pegasus",
+    "url": "https://github.com/ZagonAb/Nostalgia-Grid",
+    "screenshots": [
+      "assets/ZagonAb--Nostalgia-Grid.jpg",
+      "assets/ZagonAb--Nostalgia-Grid_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Nostalgia-Grid.jpg"
+  },
+  {
+    "slug": "ZagonAb/pegasus-beacon-lite",
+    "owner": "ZagonAb",
+    "repo": "pegasus-beacon-lite",
+    "name": "PEGASUS BEACON LITE",
+    "url": "https://github.com/ZagonAb/pegasus-beacon-lite",
+    "screenshots": [
+      "assets/ZagonAb--pegasus-beacon-lite.jpg",
+      "assets/ZagonAb--pegasus-beacon-lite_1.jpg",
+      "assets/ZagonAb--pegasus-beacon-lite_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--pegasus-beacon-lite.jpg"
+  },
+  {
+    "slug": "ZagonAb/pegasus-box",
+    "owner": "ZagonAb",
+    "repo": "pegasus-box",
+    "name": "pegasus box",
+    "url": "https://github.com/ZagonAb/pegasus-box",
+    "screenshots": [
+      "assets/ZagonAb--pegasus-box.jpg",
+      "assets/ZagonAb--pegasus-box_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--pegasus-box.jpg"
+  },
+  {
+    "slug": "ZagonAb/PlayHub",
+    "owner": "ZagonAb",
+    "repo": "PlayHub",
+    "name": "PlayHub",
+    "url": "https://github.com/ZagonAb/PlayHub",
+    "screenshots": [
+      "assets/ZagonAb--PlayHub.jpg",
+      "assets/ZagonAb--PlayHub_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--PlayHub.jpg"
+  },
+  {
+    "slug": "ZagonAb/Run-Game",
+    "owner": "ZagonAb",
+    "repo": "Run-Game",
+    "name": "Run&Game",
+    "url": "https://github.com/ZagonAb/Run-Game",
+    "screenshots": [
+      "assets/ZagonAb--Run-Game.jpg",
+      "assets/ZagonAb--Run-Game_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Run-Game.jpg"
+  },
+  {
+    "slug": "ZagonAb/Vapour-Pegasus",
+    "owner": "ZagonAb",
+    "repo": "Vapour-Pegasus",
+    "name": "Vapour Pegasus",
+    "url": "https://github.com/ZagonAb/Vapour-Pegasus",
+    "screenshots": [
+      "assets/ZagonAb--Vapour-Pegasus.jpg",
+      "assets/ZagonAb--Vapour-Pegasus_1.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--Vapour-Pegasus.jpg"
+  },
+  {
+    "slug": "ZagonAb/VideoGame",
+    "owner": "ZagonAb",
+    "repo": "VideoGame",
+    "name": "VideoGame",
+    "url": "https://github.com/ZagonAb/VideoGame",
+    "screenshots": [
+      "assets/ZagonAb--VideoGame.jpg",
+      "assets/ZagonAb--VideoGame_1.jpg",
+      "assets/ZagonAb--VideoGame_2.jpg"
+    ],
+    "remote": [],
+    "cover": "assets/ZagonAb--VideoGame.jpg"
+  }
+]
