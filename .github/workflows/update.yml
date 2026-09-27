@@ -1,0 +1,81 @@
+name: Update theme gallery
+
+# 定时任务：先同步上游 data/repos.txt，有变化就全量重抓截图，没变化走增量
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # 每周一 03:17 UTC
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "强制全量重抓（忽略缓存）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install pillow
+
+      - name: Sync repos.txt from upstream
+        id: sync
+        run: |
+          set -euo pipefail
+          cp data/repos.txt /tmp/repos.old
+          curl -sSL --retry 3 --fail \
+            https://raw.githubusercontent.com/mmatyas/pegasus-theme-gallery-db/master/repos.txt \
+            -o data/repos.txt
+          # 上游文件异常（太短/为空）时回滚，避免把列表清空
+          if [ ! -s data/repos.txt ] || [ "$(wc -l < data/repos.txt)" -lt 10 ]; then
+            echo "上游 repos.txt 异常，回滚"; cp /tmp/repos.old data/repos.txt
+          fi
+          if diff -q /tmp/repos.old data/repos.txt >/dev/null; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "repos.txt 无变化"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "## 新增/变动的主题" >> "$GITHUB_STEP_SUMMARY"
+            diff /tmp/repos.old data/repos.txt | grep '^>' | sed 's/^> //' \
+              | sed 's|https://github.com/|- |' >> "$GITHUB_STEP_SUMMARY" || true
+          fi
+          echo "总数: $(grep -c 'github.com' data/repos.txt)"
+
+      - name: Generate gallery
+        run: |
+          if [ "${{ steps.sync.outputs.changed }}" = "true" ] || [ "${{ inputs.force }}" = "true" ]; then
+            echo "全量重抓"
+            python scripts/generate.py --force
+          else
+            echo "增量更新"
+            python scripts/generate.py
+          fi
+          python scripts/preview.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            total=$(grep -c 'github.com' data/repos.txt || echo 0)
+            shots=$(python - <<'PY'
+          import json
+          d=json.load(open('data/themes.json',encoding='utf-8'))
+          print(sum(1 for t in d if t.get('cover')))
+          PY
+          )
+            git commit -m "chore: refresh gallery (${shots}/${total} themes with screenshots)"
+            git push
+          fi
