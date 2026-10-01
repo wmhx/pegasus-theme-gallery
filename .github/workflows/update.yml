@@ -14,6 +14,11 @@ on:
 permissions:
   contents: write
 
+# 防止定时任务和手动触发撞车（两个 run 并发时后一个会 push 被拒）
+concurrency:
+  group: update-theme-gallery
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -68,14 +73,17 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "no changes"
-          else
-            total=$(grep -c 'github.com' data/repos.txt || echo 0)
-            shots=$(python - <<'PY'
+            exit 0
+          fi
+          total=$(grep -c 'github.com' data/repos.txt || echo 0)
+          shots=$(python - <<'PY'
           import json
           d=json.load(open('data/themes.json',encoding='utf-8'))
           print(sum(1 for t in d if t.get('cover')))
           PY
           )
-            git commit -m "chore: refresh gallery (${shots}/${total} themes with screenshots)"
-            git push
-          fi
+          git commit -m "chore: refresh gallery (${shots}/${total} themes with screenshots)"
+          # 推送前先并入远端的新提交（网页端改过 README / 别的机器推过 都能兼容）
+          git pull --rebase --autostash origin main || git pull --no-rebase --no-edit origin main
+          # 偶发网络问题重试一次
+          git push origin main || { sleep 5; git pull --rebase origin main; git push origin main; }
