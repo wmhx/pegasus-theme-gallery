@@ -97,6 +97,13 @@ MAX_WORKERS = 6
 MAX_IMAGE_BYTES = 12 * 1024 * 1024
 THUMB_WIDTH = 640      # 压缩后的最大宽度
 
+# 展示用缩略图 CDN (避免直接拉原图: 实测平均 573KB/张, 全量约 35MB)
+THUMB_CDN = "https://images.weserv.nl/?url={url}&w=400&output=jpg&q=80"
+THUMB_ON = True        # --no-thumb 时关闭, 直接引用原图
+VERIFY_DAYS = 7        # 外链校验周期(天)
+DEAD_RETRY_DAYS = 30   # 标记为 dead 的仓库多久后重试一次
+PAGES_URL = "https://wmhx.github.io/pegasus-theme-gallery/"
+
 
 # --------------------------------------------------------------------------
 # HTTP
@@ -207,10 +214,15 @@ def extract_images(md: str) -> list[str]:
     return found
 
 
+STRICT_ALIVE = False   # --strict-alive (CI 用): 只有 200 才算存活
+
+
 def url_alive(u: str) -> bool:
-    """链接是否可用。本地网络错误(status 0)不代表链接失效, 也算存活"""
+    """链接是否可用。本地网络错误(status 0)默认算存活; 严格模式下只有 200 算"""
     st, _, _ = http_get(u, timeout=15, retries=1, head=True)
-    return st == 200 or st == 0
+    if st == 200:
+        return True
+    return (not STRICT_ALIVE) and st == 0
 
 
 def probe_parallel(urls: list[str], workers: int = 8) -> list[tuple[str, int]]:
@@ -224,7 +236,24 @@ def probe_parallel(urls: list[str], workers: int = 8) -> list[tuple[str, int]]:
 
 def alive_parallel(urls: list[str]) -> list[str]:
     """过滤出可用的外链"""
-    return [u for u, st in probe_parallel(urls) if st == 200 or st == 0]
+    return [u for u, st in probe_parallel(urls) if st == 200 or ((not STRICT_ALIVE) and st == 0)]
+
+
+def thumb(u: str) -> str:
+    """展示用的缩略图地址 (关闭时返回原图)"""
+    if not THUMB_ON or not u.startswith("http"):
+        return u
+    return THUMB_CDN.format(url=urllib.parse.quote(u, safe=""))
+
+
+def days_since(date_str: str | None) -> int:
+    """距给定日期过去了多少天; 无日期视为很久以前"""
+    if not date_str:
+        return 10 ** 6
+    try:
+        return (time.time() - time.mktime(time.strptime(date_str, "%Y-%m-%d"))) // 86400
+    except Exception:
+        return 10 ** 6
 
 
 def prettify(name: str) -> str:
@@ -321,6 +350,7 @@ def process(slug: str, download: bool = False) -> dict:
     owner, name = slug.split("/")
     shots, title = find_shots(slug)
 
+    today = time.strftime("%Y-%m-%d", time.gmtime())
     entry = {
         "slug": slug,
         "owner": owner,
@@ -329,12 +359,18 @@ def process(slug: str, download: bool = False) -> dict:
         "url": f"https://github.com/{slug}",
         "screenshots": [],   # 本地 assets 路径 (仅 --download 时才有)
         "remote": [],        # 外链地址 (默认模式)
+        "verified_at": today,
+        "dead": False,
+        "dead_since": None,
     }
 
     if not download:
         # 默认模式: 直接用外链, 不落盘图片 (find_shots 已校验过链接可用性)
         entry["remote"] = list(shots)
         entry["cover"] = (entry["remote"] or [None])[0]
+        if not entry["cover"]:
+            entry["dead"] = True
+            entry["dead_since"] = today
         print(f"  [{slug}] cover={entry['cover']}")
         return entry
 
@@ -379,9 +415,12 @@ def build_readme(themes: list[dict], missing: list[str]) -> str:
     L.append(f"- 主题总数：**{len(themes)}**（成功取到截图 **{len(ok)}**）")
     L.append("- 图片来源：各主题仓库的 `.meta/screenshots/`、`README.md` 引用图或常见预览图"
              "（**外链直引，本仓库不存图片**）")
+    L.append(f"- 在线画廊：{PAGES_URL}（可搜索、可放大，比 README 好翻）")
     L.append(f"- 最近更新：{now}")
     L.append("")
     L.append("> 截图版权归各主题作者所有，这里仅作预览展示。点击图片可跳转到原仓库。")
+    if THUMB_ON:
+        L.append("> 网格里是 400px 缩略图（约 4 MB 全量），原图链接见每个主题的仓库。")
     L.append("")
 
     # 目录
@@ -403,7 +442,7 @@ def build_readme(themes: list[dict], missing: list[str]) -> str:
         row = ok[i:i + cols]
         L.append("  <tr>")
         for t in row:
-            src = t["cover"]
+            src = thumb(t["cover"])
             L.append('    <td align="center" valign="top" width="%d%%">' % (100 // cols))
             L.append(f'      <a href="{t["url"]}"><img src="{src}" alt="{t["name"]}" width="300"></a>')
             L.append("      <br><br>")
@@ -427,7 +466,7 @@ def build_readme(themes: list[dict], missing: list[str]) -> str:
             L.append("")
             L.append("<p>")
             for s in imgs:
-                L.append(f'  <img src="{s}" width="420" alt="{t["name"]}">')
+                L.append(f'  <img src="{thumb(s)}" width="420" alt="{t["name"]}">')
             L.append("</p>")
             L.append("")
             L.append("</details>")
@@ -436,10 +475,11 @@ def build_readme(themes: list[dict], missing: list[str]) -> str:
     if missing:
         L.append("## 暂未取到截图")
         L.append("")
-        L.append("以下主题仓库里没有找到可直接引用的图片（欢迎提 PR 补图）：")
+        L.append("以下主题没有可用截图（已标记为失效的仓库每 30 天复查一次）：")
         L.append("")
-        for slug in missing:
-            L.append(f"- [{slug}](https://github.com/{slug})")
+        for t in missing:
+            tag = " — 上游仓库不可访问" if t.get("dead") else ""
+            L.append(f"- [{t['slug']}](https://github.com/{t['slug']}){tag}")
         L.append("")
 
     L.append("## 重新生成")
@@ -468,7 +508,14 @@ def main():
     ap.add_argument("--no-download", action="store_true", help="已废弃, 现在默认就是外链模式")
     ap.add_argument("--readme-only", action="store_true", help="只按 themes.json 重新生成 README")
     ap.add_argument("--no-prune", action="store_true", help="保留 assets 里已不再引用的旧图")
+    ap.add_argument("--verify", action="store_true", help="校验已有外链是否还活着, 失效的重新抓")
+    ap.add_argument("--strict-alive", action="store_true", help="CI 用: 非 200 一律视为失效")
+    ap.add_argument("--no-thumb", action="store_true", help="不使用缩略图 CDN, 直接引用原图")
     args = ap.parse_args()
+
+    global STRICT_ALIVE, THUMB_ON
+    STRICT_ALIVE = args.strict_alive
+    THUMB_ON = not args.no_thumb
 
     ASSETS.mkdir(exist_ok=True)
     repos = parse_repos(REPOS_TXT.read_text(encoding="utf-8"))
@@ -483,14 +530,37 @@ def main():
 
     def done(r: str) -> bool:
         t = cache.get(r)
-        if not t or not t.get("cover"):
+        if not t:
             return False
+        if not t.get("cover"):
+            # 已确认失效的仓库: 30 天内不再重试, 省掉无效探测
+            return bool(t.get("dead")) and days_since(t.get("dead_since")) < DEAD_RETRY_DAYS
+        if args.verify and days_since(t.get("verified_at")) >= VERIFY_DAYS:
+            return False                # 到期的外链要重新校验
         # 有截图但没落到本地的, 再试一次
-        return not (download and not t.get("screenshots"))
+        return not (args.download and not t.get("screenshots"))
 
-    download = args.download
+    def needs_verify(t: dict) -> bool:
+        return bool(t.get("cover")) and days_since(t.get("verified_at")) >= VERIFY_DAYS
+
     todo = [] if args.readme_only else [r for r in repos if args.force or not done(r)]
     print(f"需抓取 {len(todo)} 个，复用缓存 {len(repos) - len(todo)} 个")
+
+    # --verify: 先批量 HEAD 校验已有外链, 只重抓失效的那些
+    if args.verify and not args.force:
+        stale = [cache[r] for r in repos if r in cache and needs_verify(cache[r])]
+        if stale:
+            print(f"校验 {len(stale)} 个外链 ...")
+            checked = {u: st for u, st in probe_parallel([t["cover"] for t in stale])}
+            broken = [t for t in stale
+                      if not (checked.get(t["cover"]) == 200
+                              or ((not STRICT_ALIVE) and checked.get(t["cover"]) == 0))]
+            print(f"失效 {len(broken)} 个 -> 重新抓取")
+            for t in broken:
+                todo.append(t["slug"])
+        fresh = [t for t in stale if t["slug"] not in todo]
+        for t in fresh:                  # 校验通过的刷新一下时间
+            t["verified_at"] = time.strftime("%Y-%m-%d", time.gmtime())
 
     results: dict[str, dict] = {}
     if todo:
@@ -525,11 +595,18 @@ def main():
         json.dumps(themes, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    missing = [t["slug"] for t in themes if not t.get("cover")]
-    README.write_text(build_readme(themes, missing), encoding="utf-8")
+    # A7: 内容没实质变化时不要重写文件, 避免"最近更新"时间戳造成空转提交
+    missing = [t for t in themes if not t.get("cover")]
+    old_txt = README.read_text(encoding="utf-8") if README.exists() else ""
+    stamp = re.compile(r"^- 最近更新：.*$", re.M)
+    new_txt = build_readme(themes, missing)
+    if old_txt and stamp.sub("", old_txt).strip() == stamp.sub("", new_txt).strip():
+        print("README 内容无变化, 保持原样")
+    else:
+        README.write_text(new_txt, encoding="utf-8")
     print(f"\n完成: {len(themes) - len(missing)}/{len(themes)} 有截图 -> README.md")
     if missing:
-        print("缺失: " + ", ".join(missing))
+        print("缺失: " + ", ".join(t["slug"] for t in missing))
 
 
 if __name__ == "__main__":

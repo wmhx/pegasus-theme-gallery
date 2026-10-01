@@ -29,8 +29,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Pillow
-        run: pip install pillow
+      - name: Install deps
+        run: pip install -r requirements.txt
 
       - name: Sync repos.txt from upstream
         id: sync
@@ -61,8 +61,8 @@ jobs:
             echo "全量重抓"
             python scripts/generate.py --force
           else
-            echo "增量更新"
-            python scripts/generate.py
+            echo "增量更新 + 外链校验"
+            python scripts/generate.py --verify --strict-alive
           fi
           python scripts/preview.py
 

@@ -11,6 +11,9 @@
       "https://i.imgur.com/19DZEJ1.jpg",
       "https://i.imgur.com/x5ATDSx.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/Cb31gtf.png"
   },
   {
@@ -25,6 +28,9 @@
       "https://user-images.githubusercontent.com/30796598/62833640-889a5a00-bc85-11e9-8ab9-c99251a64985.png",
       "https://user-images.githubusercontent.com/30796598/62833641-8df7a480-bc85-11e9-85ac-0f0619a5100e.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://user-images.githubusercontent.com/30796598/62833639-86380000-bc85-11e9-96ab-7e9e590d4020.png"
   },
   {
@@ -37,6 +43,9 @@
     "remote": [
       "https://raw.githubusercontent.com/basvroegop/RetroidFlix/HEAD/.meta/RetroidFlix.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/basvroegop/RetroidFlix/HEAD/.meta/RetroidFlix.png"
   },
   {
@@ -49,6 +58,9 @@
     "remote": [
       "https://raw.githubusercontent.com/basvroegop/RetroidStation/HEAD/screenshot.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/basvroegop/RetroidStation/HEAD/screenshot.png"
   },
   {
@@ -62,6 +74,9 @@
       "https://raw.githubusercontent.com/buzz/pegasus-theme-slick/HEAD/.meta/screenshot.jpg",
       "https://raw.githubusercontent.com/buzz/pegasus-theme-slick/HEAD/.meta/screenshot-platform.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/buzz/pegasus-theme-slick/HEAD/.meta/screenshot.jpg"
   },
   {
@@ -74,6 +89,9 @@
     "remote": [
       "https://raw.githubusercontent.com/carloslmar/pegasus-theme-9999999-in-1-poly/HEAD/.meta/screenshot.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/carloslmar/pegasus-theme-9999999-in-1-poly/HEAD/.meta/screenshot.png"
   },
   {
@@ -86,6 +104,9 @@
     "remote": [
       "https://raw.githubusercontent.com/DFOXpro/rp2-pegasus-theme-grid/HEAD/.meta/promo.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/DFOXpro/rp2-pegasus-theme-grid/HEAD/.meta/promo.png"
   },
   {
@@ -98,6 +119,9 @@
     "remote": [
       "https://raw.githubusercontent.com/djfumberger/retromega/HEAD/screenshots/screenshot-video.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/djfumberger/retromega/HEAD/screenshots/screenshot-video.png"
   },
   {
@@ -112,6 +136,9 @@
       "https://raw.githubusercontent.com/dragoonDorise/RP-RG351/main/screenshots/home.jpg",
       "https://raw.githubusercontent.com/dragoonDorise/RP-RG351/main/screenshots/games.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/dragoonDorise/RP-RG351/main/screenshots/hero.jpg"
   },
   {
@@ -126,6 +153,9 @@
       "https://raw.githubusercontent.com/dragoonDorise/RP-Switch/main/screenshots/RG552.jpg",
       "https://raw.githubusercontent.com/dragoonDorise/RP-Switch/main/screenshots/home.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/dragoonDorise/RP-Switch/main/screenshots/hero.jpg"
   },
   {
@@ -136,6 +166,9 @@
     "url": "https://github.com/ElectronicRave/ES-Simple-Clean",
     "screenshots": [],
     "remote": [],
+    "verified_at": "2026-10-01",
+    "dead": true,
+    "dead_since": "2026-10-01",
     "cover": null
   },
   {
@@ -146,6 +179,9 @@
     "url": "https://github.com/ElectronicRave/RP-Launcher",
     "screenshots": [],
     "remote": [],
+    "verified_at": "2026-10-01",
+    "dead": true,
+    "dead_since": "2026-10-01",
     "cover": null
   },
   {
@@ -158,6 +194,9 @@
     "remote": [
       "https://raw.githubusercontent.com/eleo95/pegasus-theme-refiOS/HEAD/.meta/screenshot.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/eleo95/pegasus-theme-refiOS/HEAD/.meta/screenshot.png"
   },
   {
@@ -172,6 +211,9 @@
       "https://raw.githubusercontent.com/flagrant99/pegasus-theme-genre-filter/HEAD/.github/wiki-images/GFButton.jpg",
       "https://raw.githubusercontent.com/flagrant99/pegasus-theme-genre-filter/HEAD/.github/wiki-images/Driving.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/flagrant99/pegasus-theme-genre-filter/HEAD/.github/wiki-images/Arcade.jpg"
   },
   {
@@ -186,6 +228,9 @@
       "https://raw.githubusercontent.com/Fr75s/library/HEAD/assets/SAFELY_REMOVABLE/screenshot_8.png",
       "https://raw.githubusercontent.com/Fr75s/library/HEAD/assets/SAFELY_REMOVABLE/screenshot_7.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/Fr75s/library/HEAD/assets/SAFELY_REMOVABLE/screenshot_1.png"
   },
   {
@@ -200,6 +245,9 @@
       "https://raw.githubusercontent.com/FrenchGithubUser/epic-memories-theme/HEAD/.meta/screenshots/1.jpg",
       "https://raw.githubusercontent.com/FrenchGithubUser/epic-memories-theme/HEAD/.meta/screenshots/2.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/FrenchGithubUser/epic-memories-theme/HEAD/.meta/screenshots/0.jpg"
   },
   {
@@ -214,6 +262,9 @@
       "https://raw.githubusercontent.com/Gheovgos/skylineOS2/HEAD/assets/images/screenshot_bar_end.png",
       "https://raw.githubusercontent.com/Gheovgos/skylineOS2/HEAD/assets/images/screenshot_allsoft.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/Gheovgos/skylineOS2/HEAD/assets/images/screenshot_bar_start.png"
   },
   {
@@ -228,6 +279,9 @@
       "https://raw.githubusercontent.com/hazem-abdelghani/retromega-neo/HEAD/.meta/screenshots/sidebar.png",
       "https://raw.githubusercontent.com/hazem-abdelghani/retromega-neo/HEAD/.meta/screenshots/grid.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/hazem-abdelghani/retromega-neo/HEAD/.meta/screenshots/collections.png"
   },
   {
@@ -242,6 +296,9 @@
       "https://i.imgur.com/rVMMzRY.png",
       "https://i.imgur.com/2ryXTaw.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/wmT3dAU.png"
   },
   {
@@ -256,6 +313,9 @@
       "https://raw.githubusercontent.com/ilyasturki/pegasus-theme-reprise/HEAD/docs/demo.gif",
       "https://raw.githubusercontent.com/ilyasturki/pegasus-theme-reprise/HEAD/docs/screenshots/library.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ilyasturki/pegasus-theme-reprise/HEAD/docs/screenshots/home.png"
   },
   {
@@ -270,6 +330,9 @@
       "https://raw.githubusercontent.com/ismaelestalayo/skylineOSP/HEAD/assets/images/screenshot_wii.png",
       "https://raw.githubusercontent.com/ismaelestalayo/skylineOSP/HEAD/assets/images/screenshot_recent.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ismaelestalayo/skylineOSP/HEAD/assets/images/screenshot_systems.png"
   },
   {
@@ -284,6 +347,9 @@
       "https://i.imgur.com/b5lIg5l.png",
       "https://i.imgur.com/LtJlNrr.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/dIqVgG0.png"
   },
   {
@@ -297,6 +363,9 @@
       "https://raw.githubusercontent.com/LeeBigelow/pegasus-theme-amiga-workbench/HEAD/screenshot.png",
       "https://raw.githubusercontent.com/LeeBigelow/pegasus-theme-amiga-workbench/HEAD/screenshot1.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/LeeBigelow/pegasus-theme-amiga-workbench/HEAD/screenshot.png"
   },
   {
@@ -311,6 +380,9 @@
       "https://raw.githubusercontent.com/LeeBigelow/pegasus-theme-slatest/HEAD/screenshot1.png",
       "https://raw.githubusercontent.com/LeeBigelow/pegasus-theme-slatest/HEAD/screenshot2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/LeeBigelow/pegasus-theme-slatest/HEAD/screenshot.png"
   },
   {
@@ -325,6 +397,9 @@
       "https://github.com/user-attachments/assets/b0f621c9-63c9-43e3-b05b-a7f514c1e593",
       "https://github.com/user-attachments/assets/f661e9ad-abad-4708-8369-76f6ed3bd4a0"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://github.com/user-attachments/assets/69d9e558-15bd-46af-bf64-8975ef7a8608"
   },
   {
@@ -337,6 +412,9 @@
     "remote": [
       "https://raw.githubusercontent.com/Lx-Dm/Pegasus-theme-XrossMediaBar/main/.meta/screenshot.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/Lx-Dm/Pegasus-theme-XrossMediaBar/main/.meta/screenshot.jpg"
   },
   {
@@ -351,6 +429,9 @@
       "https://raw.githubusercontent.com/mlumeau/pegasus-theme-clean-covers/HEAD/screenshots/screenshot2.webp",
       "https://raw.githubusercontent.com/mlumeau/pegasus-theme-clean-covers/HEAD/screenshots/screenshot3.webp"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mlumeau/pegasus-theme-clean-covers/HEAD/screenshots/screenshot1.webp"
   },
   {
@@ -365,6 +446,9 @@
       "https://raw.githubusercontent.com/mlumeau/pegasus-theme-clean-covers-desktop/HEAD/screenshots/screenshot2.webp",
       "https://raw.githubusercontent.com/mlumeau/pegasus-theme-clean-covers-desktop/HEAD/screenshots/screenshot3.webp"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mlumeau/pegasus-theme-clean-covers-desktop/HEAD/screenshots/screenshot1.webp"
   },
   {
@@ -377,6 +461,9 @@
     "remote": [
       "https://raw.githubusercontent.com/mmatyas/pegasus-theme-9999999-in-1/HEAD/.meta/screenshot.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mmatyas/pegasus-theme-9999999-in-1/HEAD/.meta/screenshot.png"
   },
   {
@@ -389,6 +476,9 @@
     "remote": [
       "https://raw.githubusercontent.com/mmatyas/pegasus-theme-es2-simple/HEAD/.meta/screenshot.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mmatyas/pegasus-theme-es2-simple/HEAD/.meta/screenshot.png"
   },
   {
@@ -401,6 +491,9 @@
     "remote": [
       "https://raw.githubusercontent.com/mmatyas/pegasus-theme-flixnet/HEAD/.meta/screenshot.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mmatyas/pegasus-theme-flixnet/HEAD/.meta/screenshot.jpg"
   },
   {
@@ -413,6 +506,9 @@
     "remote": [
       "https://raw.githubusercontent.com/mmatyas/pegasus-theme-grid/HEAD/.meta/screenshot.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mmatyas/pegasus-theme-grid/HEAD/.meta/screenshot.jpg"
   },
   {
@@ -426,6 +522,9 @@
       "https://raw.githubusercontent.com/mmatyas/pegasus-theme-grid-micro/HEAD/.meta/screenshot_a.png",
       "https://raw.githubusercontent.com/mmatyas/pegasus-theme-grid-micro/HEAD/.meta/screenshot_b.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mmatyas/pegasus-theme-grid-micro/HEAD/.meta/screenshot_a.png"
   },
   {
@@ -438,6 +537,9 @@
     "remote": [
       "https://raw.githubusercontent.com/mmatyas/pegasus-theme-secretary/HEAD/.meta/screenshot.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/mmatyas/pegasus-theme-secretary/HEAD/.meta/screenshot.png"
   },
   {
@@ -452,6 +554,9 @@
       "https://raw.githubusercontent.com/my-name-is-p/struceOS-Pegasus-Theme/HEAD/.meta/screenshot_002.jpg",
       "https://raw.githubusercontent.com/my-name-is-p/struceOS-Pegasus-Theme/HEAD/.meta/screenshot_003.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/my-name-is-p/struceOS-Pegasus-Theme/HEAD/.meta/screenshot_001.jpg"
   },
   {
@@ -464,6 +569,9 @@
     "remote": [
       "https://raw.githubusercontent.com/nicjansma/pegasus-theme-slate-es-de/HEAD/.meta/screenshot.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/nicjansma/pegasus-theme-slate-es-de/HEAD/.meta/screenshot.png"
   },
   {
@@ -478,6 +586,9 @@
       "https://raw.githubusercontent.com/plaidman/retromega-next/HEAD/.meta/screenshots/readme/lightmode.png",
       "https://raw.githubusercontent.com/plaidman/retromega-next/HEAD/.meta/screenshots/readme/details.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/plaidman/retromega-next/HEAD/.meta/screenshots/readme/collections.png"
   },
   {
@@ -492,6 +603,9 @@
       "https://i.imgur.com/FP0eJIY.png",
       "https://i.imgur.com/5UycKVI.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/XUvZIjx.png"
   },
   {
@@ -504,6 +618,9 @@
     "remote": [
       "https://i.imgur.com/J4Jh4rq.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/J4Jh4rq.jpg"
   },
   {
@@ -518,6 +635,9 @@
       "https://i.imgur.com/AlDRo9l.png",
       "https://i.imgur.com/PiZGhgi.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/4cPZLoo.png"
   },
   {
@@ -531,6 +651,9 @@
       "https://i.imgur.com/4EUrWRV.jpg",
       "https://i.imgur.com/yFCqOaY.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/4EUrWRV.jpg"
   },
   {
@@ -545,6 +668,9 @@
       "https://i.imgur.com/n9P5CtG.png",
       "https://i.imgur.com/FZJJCpS.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/C4fhhAk.png"
   },
   {
@@ -559,6 +685,9 @@
       "https://raw.githubusercontent.com/RBertoCases/skylineOS/HEAD/assets/images/screenshot_bar_end.png",
       "https://raw.githubusercontent.com/RBertoCases/skylineOS/HEAD/assets/images/screenshot_allsoft.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/RBertoCases/skylineOS/HEAD/assets/images/screenshot_bar_start.jpg"
   },
   {
@@ -571,6 +700,9 @@
     "remote": [
       "https://raw.githubusercontent.com/riquenunes/pegasus-theme-npe/HEAD/images/video.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/riquenunes/pegasus-theme-npe/HEAD/images/video.jpg"
   },
   {
@@ -585,6 +717,9 @@
       "https://raw.githubusercontent.com/RobZombie9043/COLORFUL/HEAD/.meta/screenshots/CollectionsDetails.png",
       "https://raw.githubusercontent.com/RobZombie9043/COLORFUL/HEAD/.meta/screenshots/GamesListView.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/RobZombie9043/COLORFUL/HEAD/.meta/screenshots/CollectionsWheel.png"
   },
   {
@@ -599,6 +734,9 @@
       "https://i.imgur.com/sIsrSIS.png",
       "https://i.imgur.com/ylLepRD.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/9FZeOpt.png"
   },
   {
@@ -613,6 +751,9 @@
       "https://i.imgur.com/IP9e4t5.png",
       "https://i.imgur.com/jIKEXtI.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://i.imgur.com/EjqIWkn.png"
   },
   {
@@ -627,6 +768,9 @@
       "https://raw.githubusercontent.com/thomas0465/PegasusBoyLite/HEAD/assets/screenshots/2.png",
       "https://raw.githubusercontent.com/thomas0465/PegasusBoyLite/HEAD/assets/screenshots/3.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/thomas0465/PegasusBoyLite/HEAD/assets/screenshots/1.png"
   },
   {
@@ -640,6 +784,9 @@
       "https://img.youtube.com/vi/YbPcsC95Qc0/0.jpg",
       "https://img.youtube.com/vi/sm5J7JoTYs8/0.jpg"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://img.youtube.com/vi/YbPcsC95Qc0/0.jpg"
   },
   {
@@ -652,6 +799,9 @@
     "remote": [
       "https://raw.githubusercontent.com/travrei/revolutionmenu/HEAD/screenshots/2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/travrei/revolutionmenu/HEAD/screenshots/2.png"
   },
   {
@@ -664,6 +814,9 @@
     "remote": [
       "https://raw.githubusercontent.com/valsou/neoretro/HEAD/assets/logo_neoretro.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/valsou/neoretro/HEAD/assets/logo_neoretro.png"
   },
   {
@@ -678,6 +831,9 @@
       "https://raw.githubusercontent.com/VGmove/EasyLaunch/HEAD/.meta/screenshot_3.png",
       "https://raw.githubusercontent.com/VGmove/EasyLaunch/HEAD/.meta/screenshot_4.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/VGmove/EasyLaunch/HEAD/.meta/screenshot_1.png"
   },
   {
@@ -692,6 +848,9 @@
       "https://raw.githubusercontent.com/waldnercharles/Minimis/HEAD/.meta/screenshots/screen2.jpg",
       "https://raw.githubusercontent.com/waldnercharles/Minimis/HEAD/.meta/screenshots/screen3.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/waldnercharles/Minimis/HEAD/.meta/screenshots/screen1.png"
   },
   {
@@ -706,6 +865,9 @@
       "https://raw.githubusercontent.com/y-muller/retromega-sleipnir/HEAD/.meta/screenshots/GameDetails.png",
       "https://raw.githubusercontent.com/y-muller/retromega-sleipnir/HEAD/.meta/screenshots/GameDetailsPlayStationButtons.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/y-muller/retromega-sleipnir/HEAD/.meta/screenshots/GameListDarkTheme.png"
   },
   {
@@ -720,6 +882,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Amberline/09382be5d2668935680f90cf6eeea8bea62e16bc/.meta/screenshots/screen1.png",
       "https://raw.githubusercontent.com/ZagonAb/Amberline/09382be5d2668935680f90cf6eeea8bea62e16bc/.meta/screenshots/screen2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Amberline/09382be5d2668935680f90cf6eeea8bea62e16bc/.meta/screenshots/screen0.png"
   },
   {
@@ -733,6 +898,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Anbernic-Theme/c5a4360ae8769f8f09b3fa907ee8cd7fc1499af6/.meta/screenshots/screen0.png",
       "https://raw.githubusercontent.com/ZagonAb/Anbernic-Theme/c5a4360ae8769f8f09b3fa907ee8cd7fc1499af6/.meta/screenshots/screen1.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Anbernic-Theme/c5a4360ae8769f8f09b3fa907ee8cd7fc1499af6/.meta/screenshots/screen0.png"
   },
   {
@@ -747,6 +915,9 @@
       "https://raw.githubusercontent.com/ZagonAb/BigScreenFE/34787e46fbf4e95c9e88b94f2eed2be668a4f4c0/.meta/screenshots/1.png",
       "https://raw.githubusercontent.com/ZagonAb/BigScreenFE/2fd5b02977eaf8846f111913037e651b916d836c/.meta/screenshots/2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/BigScreenFE/34787e46fbf4e95c9e88b94f2eed2be668a4f4c0/.meta/screenshots/0.png"
   },
   {
@@ -761,6 +932,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Collection-Hub/93cb2b1ef096ce50add00709e8a9dd7e1e8c9ec2/.meta/screenshots/screen1.png",
       "https://raw.githubusercontent.com/ZagonAb/Collection-Hub/93cb2b1ef096ce50add00709e8a9dd7e1e8c9ec2/.meta/screenshots/screen2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Collection-Hub/1bf3e9b0da220cb56aa10662e6bebf94b0b6348d/.meta/screenshots/screen0.png"
   },
   {
@@ -773,6 +947,9 @@
     "remote": [
       "https://raw.githubusercontent.com/ZagonAb/ColorShader/86fd1aba834be719e9eaa4fe3d8de89a1f0f1180/.meta/screenshots/aspect-ratio-showcase.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/ColorShader/86fd1aba834be719e9eaa4fe3d8de89a1f0f1180/.meta/screenshots/aspect-ratio-showcase.png"
   },
   {
@@ -786,6 +963,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Flat-Ozone/50d6720f422d2d30cf9b1dbdf8cde88718462df3/.meta/screenshots/screen1.png",
       "https://raw.githubusercontent.com/ZagonAb/Flat-Ozone/50d6720f422d2d30cf9b1dbdf8cde88718462df3/.meta/screenshots/screen2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Flat-Ozone/50d6720f422d2d30cf9b1dbdf8cde88718462df3/.meta/screenshots/screen1.png"
   },
   {
@@ -800,6 +980,9 @@
       "https://raw.githubusercontent.com/ZagonAb/FlatFlix/713fbffa26ba50f1cfa4eb9d123c12724a6938d5/.meta/screenshots/screen1.png",
       "https://raw.githubusercontent.com/ZagonAb/FlatFlix/713fbffa26ba50f1cfa4eb9d123c12724a6938d5/.meta/screenshots/screen2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/FlatFlix/713fbffa26ba50f1cfa4eb9d123c12724a6938d5/.meta/screenshots/screen0.png"
   },
   {
@@ -810,6 +993,9 @@
     "url": "https://github.com/ZagonAb/FlixNet_Plus",
     "screenshots": [],
     "remote": [],
+    "verified_at": "2026-10-01",
+    "dead": true,
+    "dead_since": "2026-10-01",
     "cover": null
   },
   {
@@ -820,6 +1006,9 @@
     "url": "https://github.com/ZagonAb/Limbo-Theme",
     "screenshots": [],
     "remote": [],
+    "verified_at": "2026-10-01",
+    "dead": true,
+    "dead_since": "2026-10-01",
     "cover": null
   },
   {
@@ -834,6 +1023,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Ludens-Pegasus/f8757ec6faf894622b00cac82617b5c1f4eed4ef/.meta/screenshots/screen1.png",
       "https://raw.githubusercontent.com/ZagonAb/Ludens-Pegasus/f8757ec6faf894622b00cac82617b5c1f4eed4ef/.meta/screenshots/screen2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Ludens-Pegasus/f8757ec6faf894622b00cac82617b5c1f4eed4ef/.meta/screenshots/screen0.png"
   },
   {
@@ -847,6 +1039,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Nostalgia-Grid/97bec0cd55ecc980808c98c22d02feefdd6252a6/.meta/screenshots/screen0.png",
       "https://raw.githubusercontent.com/ZagonAb/Nostalgia-Grid/97bec0cd55ecc980808c98c22d02feefdd6252a6/.meta/screenshots/screen1.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Nostalgia-Grid/97bec0cd55ecc980808c98c22d02feefdd6252a6/.meta/screenshots/screen0.png"
   },
   {
@@ -861,6 +1056,9 @@
       "https://raw.githubusercontent.com/ZagonAb/pegasus-beacon-lite/31c5c89090f6ee8e493f5a0ee9d47e6f43f5936a/.meta/screenshots/screen1.png",
       "https://raw.githubusercontent.com/ZagonAb/pegasus-beacon-lite/31c5c89090f6ee8e493f5a0ee9d47e6f43f5936a/.meta/screenshots/screen2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/pegasus-beacon-lite/31c5c89090f6ee8e493f5a0ee9d47e6f43f5936a/.meta/screenshots/screen0.png"
   },
   {
@@ -874,6 +1072,9 @@
       "https://raw.githubusercontent.com/ZagonAb/pegasus-box/2499f52614e1dacf8bf574c923d77deab7c6b1d6/.meta/screenshots/screen0.png",
       "https://raw.githubusercontent.com/ZagonAb/pegasus-box/2499f52614e1dacf8bf574c923d77deab7c6b1d6/.meta/screenshots/screen1.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/pegasus-box/2499f52614e1dacf8bf574c923d77deab7c6b1d6/.meta/screenshots/screen0.png"
   },
   {
@@ -887,6 +1088,9 @@
       "https://raw.githubusercontent.com/ZagonAb/PlayHub/bacc2fc6d313205f1b6a95fecd3a9c0d4714923a/.meta/screenshots/screen0.png",
       "https://raw.githubusercontent.com/ZagonAb/PlayHub/bacc2fc6d313205f1b6a95fecd3a9c0d4714923a/.meta/screenshots/screen1.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/PlayHub/bacc2fc6d313205f1b6a95fecd3a9c0d4714923a/.meta/screenshots/screen0.png"
   },
   {
@@ -900,6 +1104,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Run-Game/b005e147dca26ea58348b338550f3eb624835fe8/.meta/screenshots/screen0.png",
       "https://raw.githubusercontent.com/ZagonAb/Run-Game/b005e147dca26ea58348b338550f3eb624835fe8/.meta/screenshots/screen1.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Run-Game/b005e147dca26ea58348b338550f3eb624835fe8/.meta/screenshots/screen0.png"
   },
   {
@@ -913,6 +1120,9 @@
       "https://raw.githubusercontent.com/ZagonAb/Vapour-Pegasus/6ca16d65f4aecfe878e5a1c2715e21fe9a6cb500/.meta/screenshots/screen0.png",
       "https://raw.githubusercontent.com/ZagonAb/Vapour-Pegasus/6ca16d65f4aecfe878e5a1c2715e21fe9a6cb500/.meta/screenshots/screen1.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/Vapour-Pegasus/6ca16d65f4aecfe878e5a1c2715e21fe9a6cb500/.meta/screenshots/screen0.png"
   },
   {
@@ -927,6 +1137,9 @@
       "https://raw.githubusercontent.com/ZagonAb/VideoGame/bf91b993884c2f4d766dd620219512c2da8f1b3a/.meta/screenshots/screen1.png",
       "https://raw.githubusercontent.com/ZagonAb/VideoGame/bf91b993884c2f4d766dd620219512c2da8f1b3a/.meta/screenshots/screen2.png"
     ],
+    "verified_at": "2026-10-01",
+    "dead": false,
+    "dead_since": null,
     "cover": "https://raw.githubusercontent.com/ZagonAb/VideoGame/bf91b993884c2f4d766dd620219512c2da8f1b3a/.meta/screenshots/screen0.png"
   }
 ]
