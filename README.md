@@ -4,8 +4,8 @@
 
 - 主题总数：**71**（成功取到截图 **67**）
 - 图片来源：各主题仓库的 `.meta/screenshots/`、`README.md` 引用图或常见预览图（**外链直引，本仓库不存图片**）
-- 在线画廊：https://wmhx.github.io/pegasus-theme-gallery/（可搜索、可放大，比 README 好翻）
-- 最近更新：2026-10-01 03:21 UTC
+- 在线画廊：[wmhx.github.io/pegasus-theme-gallery/](https://wmhx.github.io/pegasus-theme-gallery/)（可搜索、可放大，比 README 好翻）
+- 最近更新：2026-10-01 03:29 UTC
 
 > 截图版权归各主题作者所有，这里仅作预览展示。点击图片可跳转到原仓库。
 > 网格里是 400px 缩略图（约 4 MB 全量），原图链接见每个主题的仓库。

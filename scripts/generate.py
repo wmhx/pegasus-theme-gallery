@@ -415,7 +415,9 @@ def build_readme(themes: list[dict], missing: list[str]) -> str:
     L.append(f"- 主题总数：**{len(themes)}**（成功取到截图 **{len(ok)}**）")
     L.append("- 图片来源：各主题仓库的 `.meta/screenshots/`、`README.md` 引用图或常见预览图"
              "（**外链直引，本仓库不存图片**）")
-    L.append(f"- 在线画廊：{PAGES_URL}（可搜索、可放大，比 README 好翻）")
+    # 注意: 裸 URL 后面紧跟中文会被 GitHub 一起当成链接, 必须用 markdown 链接包起来
+    L.append(f"- 在线画廊：[{PAGES_URL.replace('https://', '')}]({PAGES_URL})"
+             "（可搜索、可放大，比 README 好翻）")
     L.append(f"- 最近更新：{now}")
     L.append("")
     L.append("> 截图版权归各主题作者所有，这里仅作预览展示。点击图片可跳转到原仓库。")
