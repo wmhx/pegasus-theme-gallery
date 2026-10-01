@@ -771,10 +771,9 @@
     "url": "https://github.com/ZagonAb/ColorShader",
     "screenshots": [],
     "remote": [
-      "https://raw.githubusercontent.com/ZagonAb/ColorShader/bc38c1d93ab229e601cf7892da19f74fccb8942e/.meta/screenshots/screen.png",
-      "https://raw.githubusercontent.com/ZagonAb/ColorShader/bc38c1d93ab229e601cf7892da19f74fccb8942e/.meta/screenshots/screen1.png"
+      "https://raw.githubusercontent.com/ZagonAb/ColorShader/86fd1aba834be719e9eaa4fe3d8de89a1f0f1180/.meta/screenshots/aspect-ratio-showcase.png"
     ],
-    "cover": "https://raw.githubusercontent.com/ZagonAb/ColorShader/bc38c1d93ab229e601cf7892da19f74fccb8942e/.meta/screenshots/screen.png"
+    "cover": "https://raw.githubusercontent.com/ZagonAb/ColorShader/86fd1aba834be719e9eaa4fe3d8de89a1f0f1180/.meta/screenshots/aspect-ratio-showcase.png"
   },
   {
     "slug": "ZagonAb/Flat-Ozone",

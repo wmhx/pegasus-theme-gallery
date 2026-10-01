@@ -4,7 +4,7 @@
 
 - 主题总数：**71**（成功取到截图 **67**）
 - 图片来源：各主题仓库的 `.meta/screenshots/`、`README.md` 引用图或常见预览图（**外链直引，本仓库不存图片**）
-- 最近更新：2026-10-01 02:57 UTC
+- 最近更新：2026-10-01 02:59 UTC
 
 > 截图版权归各主题作者所有，这里仅作预览展示。点击图片可跳转到原仓库。
 
@@ -391,7 +391,7 @@
       <sub>@ZagonAb</sub>
     </td>
     <td align="center" valign="top" width="33%">
-      <a href="https://github.com/ZagonAb/ColorShader"><img src="https://raw.githubusercontent.com/ZagonAb/ColorShader/bc38c1d93ab229e601cf7892da19f74fccb8942e/.meta/screenshots/screen.png" alt="ColorShader" width="300"></a>
+      <a href="https://github.com/ZagonAb/ColorShader"><img src="https://raw.githubusercontent.com/ZagonAb/ColorShader/86fd1aba834be719e9eaa4fe3d8de89a1f0f1180/.meta/screenshots/aspect-ratio-showcase.png" alt="ColorShader" width="300"></a>
       <br><br>
       <b><a href="https://github.com/ZagonAb/ColorShader">ColorShader</a></b><br>
       <sub>@ZagonAb</sub>
@@ -851,15 +851,6 @@
   <img src="https://raw.githubusercontent.com/ZagonAb/Collection-Hub/1bf3e9b0da220cb56aa10662e6bebf94b0b6348d/.meta/screenshots/screen0.png" width="420" alt="Collection Hub">
   <img src="https://raw.githubusercontent.com/ZagonAb/Collection-Hub/93cb2b1ef096ce50add00709e8a9dd7e1e8c9ec2/.meta/screenshots/screen1.png" width="420" alt="Collection Hub">
   <img src="https://raw.githubusercontent.com/ZagonAb/Collection-Hub/93cb2b1ef096ce50add00709e8a9dd7e1e8c9ec2/.meta/screenshots/screen2.png" width="420" alt="Collection Hub">
-</p>
-
-</details>
-
-<details><summary><b>ColorShader</b> (@ZagonAb) — 2 张</summary>
-
-<p>
-  <img src="https://raw.githubusercontent.com/ZagonAb/ColorShader/bc38c1d93ab229e601cf7892da19f74fccb8942e/.meta/screenshots/screen.png" width="420" alt="ColorShader">
-  <img src="https://raw.githubusercontent.com/ZagonAb/ColorShader/bc38c1d93ab229e601cf7892da19f74fccb8942e/.meta/screenshots/screen1.png" width="420" alt="ColorShader">
 </p>
 
 </details>
