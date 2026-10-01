@@ -111,6 +111,21 @@
 
 ---
 
+## A7 · 避免空转提交（P1，刚发现的新问题）
+
+**问题**：今天手动跑了两轮，两轮都成功 push，但 diff 对比（`c4a94ca` vs `1224acf`）显示只有 6 处插入 / 16 处删除，其中绝大部分是 README 里的「最近更新：02:57 → 02:59」时间戳。也就是说**内容没变也会产生一个 commit**，历史会被每周的「chore: refresh gallery」刷屏。
+
+**方案**：
+1. 「最近更新」改为只在**内容真发生变化时**才刷新（先生成到内存，与旧 README 去掉时间戳行后比对，有差异才写新时间戳）。
+2. workflow 的提交判定加强：`git diff --cached` 之前先做一次「忽略时间戳行」的比较，一致就 `no changes` 退出。
+3. themes.json 保持稳定的键顺序与缩进，避免无意义 diff。
+
+**验收**：连续跑两次 Action，第二次输出 `no changes`，不产生新 commit。
+
+**风险**：低。
+
+---
+
 ## 执行顺序与影响
 
 ```
@@ -118,9 +133,12 @@ A1 外链自愈      → 改 generate.py + workflow，新增 2 个参数，约 6
 A2 体积优化      → 改 generate.py 的 README 生成 + preview.py，约 30 行改动（取决于选哪个方案）
 A3 Pages + 交互  → 改 preview.py，约 60 行；Pages 开关需你在网页点一下
 A4 死库跳过      → 改 generate.py，约 15 行
+A7 空转提交      → 改 generate.py 时间戳逻辑 + workflow 提交判定，约 20 行
 A5 门面          → 新增 LICENSE，README 加声明
 A6 数据/清理     → 改 generate.py 字段，tag 操作
 ```
+
+已顺带验证：push 前的 `fetch + rebase` 修复生效，今天的两轮 Action 都推成功了（不再 rejected）。
 
 预计 A1+A2+A3+A4 一起做完约 1 小时（不含我这边重跑抓取的时间），每次单独一个 commit，方便你逐条 review 和回退。
 
