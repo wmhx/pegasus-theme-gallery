@@ -5,7 +5,7 @@
 - 主题总数：**72**（成功取到截图 **68**）
 - 图片来源：各主题仓库的 `.meta/screenshots/`、`README.md` 引用图或常见预览图（**外链直引，本仓库不存图片**）
 - 在线画廊：[wmhx.github.io/pegasus-theme-gallery/](https://wmhx.github.io/pegasus-theme-gallery/)（可搜索、可放大，比 README 好翻）
-- 最近更新：2026-10-05 10:34 UTC
+- 最近更新：2026-10-12 10:58 UTC
 
 > 截图版权归各主题作者所有，这里仅作预览展示。点击图片可跳转到原仓库。
 > 网格里是 400px 缩略图（约 4 MB 全量），原图链接见每个主题的仓库。
@@ -13,7 +13,7 @@
 ## 目录
 
 <p>
-[Amberline](https://github.com/ZagonAb/Amberline) · @ZagonAb · [amiga workbench](https://github.com/LeeBigelow/pegasus-theme-amiga-workbench) · @LeeBigelow · [bartopOS v1.0](https://github.com/r3tro80/bartopOS) · @r3tro80 · [BigScreenFE](https://github.com/ZagonAb/BigScreenFE) · @ZagonAb · [Clean Covers](https://github.com/mlumeau/pegasus-theme-clean-covers) · @mlumeau · [Clean Covers Desktop](https://github.com/mlumeau/pegasus-theme-clean-covers-desktop) · @mlumeau · [clearOS v1.1](https://github.com/PlayingKarrde/clearOS) · @PlayingKarrde · [Collection Hub](https://github.com/ZagonAb/Collection-Hub) · @ZagonAb · [COLORFUL](https://github.com/RobZombie9043/COLORFUL) · @RobZombie9043 · [ColorShader](https://github.com/ZagonAb/ColorShader) · @ZagonAb · [EasyLaunch](https://github.com/VGmove/EasyLaunch) · @VGmove · [Epic Memories](https://github.com/FrenchGithubUser/epic-memories-theme) · @FrenchGithubUser · [ES-DE Slate theme for Pegasus](https://github.com/nicjansma/pegasus-theme-slate-es-de) · @nicjansma · [ES2 Simple theme for Pegasus](https://github.com/mmatyas/pegasus-theme-es2-simple) · @mmatyas · [Famicom Beach theme for Pegasus](https://github.com/mmatyas/pegasus-theme-9999999-in-1) · @mmatyas · [Flat Ozone theme for Pegasus](https://github.com/ZagonAb/Flat-Ozone) · @ZagonAb · [FlatFlix](https://github.com/ZagonAb/FlatFlix) · @ZagonAb · [Flixnet theme for Pegasus](https://github.com/basvroegop/RetroidFlix) · @basvroegop · [Flixnet theme for Pegasus](https://github.com/mmatyas/pegasus-theme-flixnet) · @mmatyas · [gameOS - Fire v1.0](https://github.com/jimbob4000/gameOS) · @jimbob4000 · [gameOS fire sKye](https://github.com/HomeStarRunnerTron/gameOS-fire-sKye) · @HomeStarRunnerTron · [gameOS v1.10](https://github.com/PlayingKarrde/gameOS) · @PlayingKarrde · [Grid Micro theme for Pegasus](https://github.com/mmatyas/pegasus-theme-grid-micro) · @mmatyas · [Grid theme for Pegasus](https://github.com/mmatyas/pegasus-theme-grid) · @mmatyas · [library](https://github.com/Fr75s/library) · @Fr75s · [Ludens](https://github.com/ZagonAb/Ludens-Pegasus) · @ZagonAb · [Minimis](https://github.com/waldnercharles/Minimis) · @waldnercharles · [neoretrō v0.131](https://github.com/valsou/neoretro) · @valsou · [New Pegasus Experience Theme](https://github.com/riquenunes/pegasus-theme-npe) · @riquenunes · [Nostalgia-Grid theme for Pegasus](https://github.com/ZagonAb/Nostalgia-Grid) · @ZagonAb · [PEGASUS BEACON LITE](https://github.com/ZagonAb/pegasus-beacon-lite) · @ZagonAb · [pegasus box](https://github.com/ZagonAb/pegasus-box) · @ZagonAb · [Pegasus Boy Lite](https://github.com/thomas0465/PegasusBoyLite) · @thomas0465 · [Pegasus Grid theme for Retroid Pocket 2](https://github.com/DFOXpro/rp2-pegasus-theme-grid) · @DFOXpro · [pegasus-theme-genre-filter](https://github.com/flagrant99/pegasus-theme-genre-filter) · @flagrant99 · [pegasus-theme-gpiOS](https://github.com/SinisterSpatula/pegasus-theme-gpiOS) · @SinisterSpatula · [Pegasus-theme-XrossMediaBar](https://github.com/Lx-Dm/Pegasus-theme-XrossMediaBar) · @Lx-Dm · [PlayHub](https://github.com/ZagonAb/PlayHub) · @ZagonAb · [Polystation theme for Pegasus](https://github.com/carloslmar/pegasus-theme-9999999-in-1-poly) · @carloslmar · [prosperoOS v0.1](https://github.com/PlayingKarrde/prosperoOS) · @PlayingKarrde · [RefiOS (a fork of Flixnet)](https://github.com/eleo95/pegasus-theme-refiOS) · @eleo95 · [Relay by Operator](https://github.com/BergGameDev/pegasus-theme-relay) · @BergGameDev · [Reprise](https://github.com/ilyasturki/pegasus-theme-reprise) · @ilyasturki · [Retro Mega Neo](https://github.com/hazem-abdelghani/retromega-neo) · @hazem-abdelghani · [Retro Mega Next](https://github.com/plaidman/retromega-next) · @plaidman · [Retro Mega v0.4](https://github.com/djfumberger/retromega) · @djfumberger · [Retroid Pocket RG351 Theme](https://github.com/dragoonDorise/RP-RG351) · @dragoonDorise · [Retroid Pocket Switch Theme](https://github.com/dragoonDorise/RP-Switch) · @dragoonDorise · [RetroidStation](https://github.com/basvroegop/RetroidStation) · @basvroegop · [Revolution Menu](https://github.com/travrei/revolutionmenu) · @travrei · [RGLegacy](https://github.com/ZagonAb/Anbernic-Theme) · @ZagonAb · [Run&Game](https://github.com/ZagonAb/Run-Game) · @ZagonAb · [Secretary theme for Pegasus](https://github.com/mmatyas/pegasus-theme-secretary) · @mmatyas · [shinretro](https://github.com/TigraTT-Driver/shinretro) · @TigraTT-Driver · [skylineOS](https://github.com/Gheovgos/skylineOS2) · @Gheovgos · [skylineOS](https://github.com/RBertoCases/skylineOS) · @RBertoCases · [skylineOS++](https://github.com/ismaelestalayo/skylineOSP) · @ismaelestalayo · [slatest](https://github.com/LeeBigelow/pegasus-theme-slatest) · @LeeBigelow · [Sleipnir](https://github.com/y-muller/retromega-sleipnir) · @y-muller · [Slick theme for Pegasus](https://github.com/buzz/pegasus-theme-slick) · @buzz · [struceOS-Pegasus-Theme](https://github.com/my-name-is-p/struceOS-Pegasus-Theme) · @my-name-is-p · [switchOS v0.3](https://github.com/PlayingKarrde/switchOS) · @PlayingKarrde · [The Homage v0.2.0](https://github.com/asdfgasfhsn/pegasus-theme-homage) · @asdfgasfhsn · [Vapour Pegasus](https://github.com/ZagonAb/Vapour-Pegasus) · @ZagonAb · [VideoGame](https://github.com/ZagonAb/VideoGame) · @ZagonAb · [XboxOS (a fork of gameOS)](https://github.com/alfredolvera/XboxOS) · @alfredolvera · [XboxOSv2 (a fork of a fork of gameOS)](https://github.com/luxureousproductions-bit/XboxOSv2) · @luxureousproductions-bit · [ZEPHYR v1.1](https://github.com/rutantan/zephyr) · @rutantan
+[Amberline](https://github.com/ZagonAb/Amberline) · @ZagonAb · [amiga workbench](https://github.com/LeeBigelow/pegasus-theme-amiga-workbench) · @LeeBigelow · [bartopOS v1.0](https://github.com/r3tro80/bartopOS) · @r3tro80 · [BigScreenFE](https://github.com/ZagonAb/BigScreenFE) · @ZagonAb · [Clean Covers](https://github.com/mlumeau/pegasus-theme-clean-covers) · @mlumeau · [Clean Covers Desktop](https://github.com/mlumeau/pegasus-theme-clean-covers-desktop) · @mlumeau · [clearOS v1.1](https://github.com/PlayingKarrde/clearOS) · @PlayingKarrde · [Collection Hub](https://github.com/ZagonAb/Collection-Hub) · @ZagonAb · [COLORFUL](https://github.com/RobZombie9043/COLORFUL) · @RobZombie9043 · [ColorShader](https://github.com/ZagonAb/ColorShader) · @ZagonAb · [EasyLaunch](https://github.com/VGmove/EasyLaunch) · @VGmove · [Epic Memories](https://github.com/FrenchGithubUser/epic-memories-theme) · @FrenchGithubUser · [ES-DE Slate theme for Pegasus](https://github.com/nicjansma/pegasus-theme-slate-es-de) · @nicjansma · [ES2 Simple theme for Pegasus](https://github.com/mmatyas/pegasus-theme-es2-simple) · @mmatyas · [Famicom Beach theme for Pegasus](https://github.com/mmatyas/pegasus-theme-9999999-in-1) · @mmatyas · [Flat Ozone theme for Pegasus](https://github.com/ZagonAb/Flat-Ozone) · @ZagonAb · [FlatFlix](https://github.com/ZagonAb/FlatFlix) · @ZagonAb · [Flixnet theme for Pegasus](https://github.com/basvroegop/RetroidFlix) · @basvroegop · [Flixnet theme for Pegasus](https://github.com/mmatyas/pegasus-theme-flixnet) · @mmatyas · [gameOS - Fire v1.0](https://github.com/jimbob4000/gameOS) · @jimbob4000 · [gameOS fire sKye](https://github.com/HomeStarRunnerTron/gameOS-fire-sKye) · @HomeStarRunnerTron · [gameOS v1.10](https://github.com/PlayingKarrde/gameOS) · @PlayingKarrde · [Grid Micro theme for Pegasus](https://github.com/mmatyas/pegasus-theme-grid-micro) · @mmatyas · [Grid theme for Pegasus](https://github.com/mmatyas/pegasus-theme-grid) · @mmatyas · [library](https://github.com/Fr75s/library) · @Fr75s · [Ludens](https://github.com/ZagonAb/Ludens-Pegasus) · @ZagonAb · [Minimis](https://github.com/waldnercharles/Minimis) · @waldnercharles · [neoretrō v0.131](https://github.com/valsou/neoretro) · @valsou · [New Pegasus Experience Theme](https://github.com/riquenunes/pegasus-theme-npe) · @riquenunes · [Nostalgia-Grid theme for Pegasus](https://github.com/ZagonAb/Nostalgia-Grid) · @ZagonAb · [PEGASUS BEACON LITE](https://github.com/ZagonAb/pegasus-beacon-lite) · @ZagonAb · [pegasus box](https://github.com/ZagonAb/pegasus-box) · @ZagonAb · [Pegasus Boy Lite](https://github.com/thomas0465/PegasusBoyLite) · @thomas0465 · [Pegasus Grid theme for Retroid Pocket 2](https://github.com/DFOXpro/rp2-pegasus-theme-grid) · @DFOXpro · [pegasus-theme-genre-filter](https://github.com/flagrant99/pegasus-theme-genre-filter) · @flagrant99 · [pegasus-theme-gpiOS](https://github.com/SinisterSpatula/pegasus-theme-gpiOS) · @SinisterSpatula · [Pegasus-theme-XrossMediaBar](https://github.com/Lx-Dm/Pegasus-theme-XrossMediaBar) · @Lx-Dm · [PlayHub](https://github.com/ZagonAb/PlayHub) · @ZagonAb · [Polystation theme for Pegasus](https://github.com/carloslmar/pegasus-theme-9999999-in-1-poly) · @carloslmar · [prosperoOS v0.1](https://github.com/PlayingKarrde/prosperoOS) · @PlayingKarrde · [RefiOS (a fork of Flixnet)](https://github.com/eleo95/pegasus-theme-refiOS) · @eleo95 · [Relay by Operator](https://github.com/BergGameDev/pegasus-theme-relay) · @BergGameDev · [Reprise](https://github.com/ilyasturki/pegasus-theme-reprise) · @ilyasturki · [Retro Mega Neo](https://github.com/hazem-abdelghani/retromega-neo) · @hazem-abdelghani · [Retro Mega Next](https://github.com/plaidman/retromega-next) · @plaidman · [Retro Mega v0.4](https://github.com/djfumberger/retromega) · @djfumberger · [Retroid Pocket RG351 Theme](https://github.com/dragoonDorise/RP-RG351) · @dragoonDorise · [Retroid Pocket Switch Theme](https://github.com/dragoonDorise/RP-Switch) · @dragoonDorise · [RetroidStation](https://github.com/basvroegop/RetroidStation) · @basvroegop · [Revolution Menu](https://github.com/travrei/revolutionmenu) · @travrei · [RGLegacy](https://github.com/ZagonAb/RGLegacy) · @ZagonAb · [Run&Game](https://github.com/ZagonAb/Run-Game) · @ZagonAb · [Secretary theme for Pegasus](https://github.com/mmatyas/pegasus-theme-secretary) · @mmatyas · [shinretro](https://github.com/TigraTT-Driver/shinretro) · @TigraTT-Driver · [skylineOS](https://github.com/Gheovgos/skylineOS2) · @Gheovgos · [skylineOS](https://github.com/RBertoCases/skylineOS) · @RBertoCases · [skylineOS++](https://github.com/ismaelestalayo/skylineOSP) · @ismaelestalayo · [slatest](https://github.com/LeeBigelow/pegasus-theme-slatest) · @LeeBigelow · [Sleipnir](https://github.com/y-muller/retromega-sleipnir) · @y-muller · [Slick theme for Pegasus](https://github.com/buzz/pegasus-theme-slick) · @buzz · [struceOS-Pegasus-Theme](https://github.com/my-name-is-p/struceOS-Pegasus-Theme) · @my-name-is-p · [switchOS v0.3](https://github.com/PlayingKarrde/switchOS) · @PlayingKarrde · [The Homage v0.2.0](https://github.com/asdfgasfhsn/pegasus-theme-homage) · @asdfgasfhsn · [Vapour Pegasus](https://github.com/ZagonAb/Vapour-Pegasus) · @ZagonAb · [VideoGame](https://github.com/ZagonAb/VideoGame) · @ZagonAb · [XboxOS (a fork of gameOS)](https://github.com/alfredolvera/XboxOS) · @alfredolvera · [XboxOSv2 (a fork of a fork of gameOS)](https://github.com/luxureousproductions-bit/XboxOSv2) · @luxureousproductions-bit · [ZEPHYR v1.1](https://github.com/rutantan/zephyr) · @rutantan
 </p>
 
 ## 截图预览
@@ -327,7 +327,7 @@
       <sub>@SinisterSpatula</sub>
     </td>
     <td align="center" valign="top" width="33%">
-      <a href="https://github.com/thomas0465/PegasusBoyLite"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthomas0465%2FPegasusBoyLite%2FHEAD%2Fassets%2Fscreenshots%2F1.png&w=400&output=jpg&q=80" alt="Pegasus Boy Lite" width="300"></a>
+      <a href="https://github.com/thomas0465/PegasusBoyLite"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthomas0465%2FPegasusBoyLite%2FHEAD%2Fassets%2Fscreenshots%2Fphoto.jpg&w=400&output=jpg&q=80" alt="Pegasus Boy Lite" width="300"></a>
       <br><br>
       <b><a href="https://github.com/thomas0465/PegasusBoyLite">Pegasus Boy Lite</a></b><br>
       <sub>@thomas0465</sub>
@@ -381,12 +381,6 @@
   </tr>
   <tr>
     <td align="center" valign="top" width="33%">
-      <a href="https://github.com/ZagonAb/Anbernic-Theme"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FAnbernic-Theme%2Fc5a4360ae8769f8f09b3fa907ee8cd7fc1499af6%2F.meta%2Fscreenshots%2Fscreen0.png&w=400&output=jpg&q=80" alt="RGLegacy" width="300"></a>
-      <br><br>
-      <b><a href="https://github.com/ZagonAb/Anbernic-Theme">RGLegacy</a></b><br>
-      <sub>@ZagonAb</sub>
-    </td>
-    <td align="center" valign="top" width="33%">
       <a href="https://github.com/ZagonAb/BigScreenFE"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FBigScreenFE%2F34787e46fbf4e95c9e88b94f2eed2be668a4f4c0%2F.meta%2Fscreenshots%2F0.png&w=400&output=jpg&q=80" alt="BigScreenFE" width="300"></a>
       <br><br>
       <b><a href="https://github.com/ZagonAb/BigScreenFE">BigScreenFE</a></b><br>
@@ -398,14 +392,14 @@
       <b><a href="https://github.com/ZagonAb/Collection-Hub">Collection Hub</a></b><br>
       <sub>@ZagonAb</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" valign="top" width="33%">
       <a href="https://github.com/ZagonAb/ColorShader"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FColorShader%2F86fd1aba834be719e9eaa4fe3d8de89a1f0f1180%2F.meta%2Fscreenshots%2Faspect-ratio-showcase.png&w=400&output=jpg&q=80" alt="ColorShader" width="300"></a>
       <br><br>
       <b><a href="https://github.com/ZagonAb/ColorShader">ColorShader</a></b><br>
       <sub>@ZagonAb</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" valign="top" width="33%">
       <a href="https://github.com/ZagonAb/Flat-Ozone"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FFlat-Ozone%2F50d6720f422d2d30cf9b1dbdf8cde88718462df3%2F.meta%2Fscreenshots%2Fscreen1.png&w=400&output=jpg&q=80" alt="Flat Ozone theme for Pegasus" width="300"></a>
       <br><br>
@@ -418,14 +412,14 @@
       <b><a href="https://github.com/ZagonAb/FlatFlix">FlatFlix</a></b><br>
       <sub>@ZagonAb</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" valign="top" width="33%">
       <a href="https://github.com/ZagonAb/Ludens-Pegasus"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FLudens-Pegasus%2Ff8757ec6faf894622b00cac82617b5c1f4eed4ef%2F.meta%2Fscreenshots%2Fscreen0.png&w=400&output=jpg&q=80" alt="Ludens" width="300"></a>
       <br><br>
       <b><a href="https://github.com/ZagonAb/Ludens-Pegasus">Ludens</a></b><br>
       <sub>@ZagonAb</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" valign="top" width="33%">
       <a href="https://github.com/ZagonAb/Nostalgia-Grid"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FNostalgia-Grid%2F97bec0cd55ecc980808c98c22d02feefdd6252a6%2F.meta%2Fscreenshots%2Fscreen0.png&w=400&output=jpg&q=80" alt="Nostalgia-Grid theme for Pegasus" width="300"></a>
       <br><br>
@@ -438,18 +432,24 @@
       <b><a href="https://github.com/ZagonAb/pegasus-beacon-lite">PEGASUS BEACON LITE</a></b><br>
       <sub>@ZagonAb</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center" valign="top" width="33%">
       <a href="https://github.com/ZagonAb/pegasus-box"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2Fpegasus-box%2F2499f52614e1dacf8bf574c923d77deab7c6b1d6%2F.meta%2Fscreenshots%2Fscreen0.png&w=400&output=jpg&q=80" alt="pegasus box" width="300"></a>
       <br><br>
       <b><a href="https://github.com/ZagonAb/pegasus-box">pegasus box</a></b><br>
       <sub>@ZagonAb</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" valign="top" width="33%">
       <a href="https://github.com/ZagonAb/PlayHub"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FPlayHub%2Fbacc2fc6d313205f1b6a95fecd3a9c0d4714923a%2F.meta%2Fscreenshots%2Fscreen0.png&w=400&output=jpg&q=80" alt="PlayHub" width="300"></a>
       <br><br>
       <b><a href="https://github.com/ZagonAb/PlayHub">PlayHub</a></b><br>
+      <sub>@ZagonAb</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <a href="https://github.com/ZagonAb/RGLegacy"><img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FAnbernic-Theme%2F85360e9813fac87c902094ae421b03298fe42398%2F.meta%2Fscreenshots%2Faspect-ratio-showcase-rglegacy.png&w=400&output=jpg&q=80" alt="RGLegacy" width="300"></a>
+      <br><br>
+      <b><a href="https://github.com/ZagonAb/RGLegacy">RGLegacy</a></b><br>
       <sub>@ZagonAb</sub>
     </td>
     <td align="center" valign="top" width="33%">
@@ -777,9 +777,9 @@
 <details><summary><b>Pegasus Boy Lite</b> (@thomas0465) — 3 张</summary>
 
 <p>
+  <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthomas0465%2FPegasusBoyLite%2FHEAD%2Fassets%2Fscreenshots%2Fphoto.jpg&w=400&output=jpg&q=80" width="420" alt="Pegasus Boy Lite">
   <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthomas0465%2FPegasusBoyLite%2FHEAD%2Fassets%2Fscreenshots%2F1.png&w=400&output=jpg&q=80" width="420" alt="Pegasus Boy Lite">
   <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthomas0465%2FPegasusBoyLite%2FHEAD%2Fassets%2Fscreenshots%2F2.png&w=400&output=jpg&q=80" width="420" alt="Pegasus Boy Lite">
-  <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fthomas0465%2FPegasusBoyLite%2FHEAD%2Fassets%2Fscreenshots%2F3.png&w=400&output=jpg&q=80" width="420" alt="Pegasus Boy Lite">
 </p>
 
 </details>
@@ -829,15 +829,6 @@
   <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FAmberline%2F09382be5d2668935680f90cf6eeea8bea62e16bc%2F.meta%2Fscreenshots%2Fscreen0.png&w=400&output=jpg&q=80" width="420" alt="Amberline">
   <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FAmberline%2F09382be5d2668935680f90cf6eeea8bea62e16bc%2F.meta%2Fscreenshots%2Fscreen1.png&w=400&output=jpg&q=80" width="420" alt="Amberline">
   <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FAmberline%2F09382be5d2668935680f90cf6eeea8bea62e16bc%2F.meta%2Fscreenshots%2Fscreen2.png&w=400&output=jpg&q=80" width="420" alt="Amberline">
-</p>
-
-</details>
-
-<details><summary><b>RGLegacy</b> (@ZagonAb) — 2 张</summary>
-
-<p>
-  <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FAnbernic-Theme%2Fc5a4360ae8769f8f09b3fa907ee8cd7fc1499af6%2F.meta%2Fscreenshots%2Fscreen0.png&w=400&output=jpg&q=80" width="420" alt="RGLegacy">
-  <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FZagonAb%2FAnbernic-Theme%2Fc5a4360ae8769f8f09b3fa907ee8cd7fc1499af6%2F.meta%2Fscreenshots%2Fscreen1.png&w=400&output=jpg&q=80" width="420" alt="RGLegacy">
 </p>
 
 </details>
